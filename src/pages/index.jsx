@@ -10,7 +10,7 @@ export default function Home() {
         <title>@_Tanaka11_</title>
       </Head>
 
-      <StyledHome>{/* <h1>Marina Tanaka</h1> */}</StyledHome>
+      <StyledHome></StyledHome>
     </>
   );
 }
