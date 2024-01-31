@@ -1,7 +1,16 @@
+import Head from "next/head";
+import styled from "styled-components";
+
+const StyledHome = styled.section``;
+
 export default function Home() {
   return (
     <>
-      <h1>Marina Tanaka</h1>
+      <Head>
+        <title>@_Tanaka11_</title>
+      </Head>
+
+      <StyledHome>{/* <h1>Marina Tanaka</h1> */}</StyledHome>
     </>
   );
 }
