@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const StyledHeader = styled.header`
   background-color: var(--cor-preto);
-  padding: 0.6rem;
+  padding: 0.4rem;
   text-align: center;
   box-shadow: var(--sombra-box);
 
