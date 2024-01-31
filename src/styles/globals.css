@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* Tamanho da letra */
+html {
+  font-size: 18px;
+}
+
+/* Variáveis CSS */
+:root {
+  --cor-primaria: #f7f7f7;
+  --cor-secundaria: #3a5e98;
+}
