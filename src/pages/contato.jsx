@@ -3,7 +3,11 @@ import Head from "next/head";
 import styled from "styled-components";
 
 // CSS
-const StyledContato = styled.section``;
+const StyledContato = styled.section`
+  h2 {
+    color: var(--cor-terciaria);
+  }
+`;
 
 export default function Contato() {
   return (

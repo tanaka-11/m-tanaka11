@@ -3,7 +3,11 @@ import styled from "styled-components";
 import Container from "@/components/ui/Container";
 
 // CSS
-const StyledHistoria = styled.section``;
+const StyledHistoria = styled.section`
+  h2 {
+    color: var(--cor-quartenaria);
+  }
+`;
 
 export default function Historia() {
   return (

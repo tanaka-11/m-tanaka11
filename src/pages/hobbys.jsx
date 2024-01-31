@@ -3,7 +3,11 @@ import styled from "styled-components";
 import Container from "@/components/ui/Container";
 
 // CSS
-const StyledHobbys = styled.section``;
+const StyledHobbys = styled.section`
+  h2 {
+    color: var(--cor-roxa);
+  }
+`;
 
 export default function Hobbys() {
   return (
