@@ -5,15 +5,25 @@ const StyledNav = styled.nav`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 1rem;
+  padding: 0.3rem;
 
   a {
     text-decoration: none;
     color: var(--cor-primaria);
 
+    &:first-child {
+      color: var(--cor-quartenaria);
+    }
+
+    &:last-child {
+      color: var(--cor-terciaria);
+    }
+
     &:hover,
     &:focus {
-      color: #000000;
-      border-radius: 8px;
+      text-shadow: var(--sombra-box) 1px 1px 1px;
+      text-transform: uppercase;
     }
   }
 `;
@@ -21,7 +31,7 @@ const StyledNav = styled.nav`
 export default function Menu() {
   return (
     <StyledNav>
-      <Link href="">Minha Historia</Link>
+      <Link href="">Minha História</Link>
       <Link href="">Hobbys</Link>
       <Link href="">Contato</Link>
     </StyledNav>

@@ -13,4 +13,25 @@ html {
 :root {
   --cor-primaria: #f7f7f7;
   --cor-secundaria: #3a5e98;
+  --cor-terciaria: #2aa3db;
+  --cor-quartenaria: #d7598b;
+  --cor-preto: #000000cb;
+  --cor-roxa: #6f55da;
+  --sombra-box: 0px 10px 15px -3px #00000041;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  /* background-color: #ededf7; */
+
+  /* Propriedades recomendadas para
+  minimizar a chance de serrilhamento */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

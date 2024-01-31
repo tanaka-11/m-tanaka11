@@ -1,10 +1,25 @@
 import styled from "styled-components";
 import Menu from "./Menu";
+import Link from "next/link";
+import Image from "next/image";
 
 const StyledHeader = styled.header`
-  text-align: center;
-  background-color: var(--cor-secundaria);
+  background-color: var(--cor-preto);
   padding: 0.6rem;
+  text-align: center;
+  box-shadow: var(--sombra-box);
+
+  hr {
+    width: 70%;
+    background: linear-gradient(
+      to right,
+      var(--cor-quartenaria),
+      var(--cor-terciaria)
+    );
+    border: none;
+    height: 4px;
+    margin: 6px auto;
+  }
 `;
 
 export default function Cabecalho() {
@@ -12,7 +27,14 @@ export default function Cabecalho() {
     <>
       <StyledHeader>
         <div>
-          <h1>🎭</h1>
+          <Link href="/">
+            <Image
+              src="/images/mascara.png"
+              width={100}
+              height={100}
+              alt="Mascara de Teatro Grego"
+            />
+          </Link>
           <hr />
           <Menu />
         </div>
