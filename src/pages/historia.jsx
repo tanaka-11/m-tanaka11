@@ -17,38 +17,32 @@ export default function Historia() {
       </Head>
 
       <StyledHistoria>
-        <h2>Teste</h2>
+        <h2>Minha História</h2>
 
         <Container>
-          <article>
-            <h3>O começo</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-              enim voluptatum voluptatibus ullam! Porro nisi ipsa minus
-              reprehenderit commodi quibusdam. Dicta cupiditate ratione dolorem
-              distinctio quae, vitae minus omnis debitis!
-            </p>
-          </article>
+          <h3>O começo</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+            enim voluptatum voluptatibus ullam! Porro nisi ipsa minus
+            reprehenderit commodi quibusdam. Dicta cupiditate ratione dolorem
+            distinctio quae, vitae minus omnis debitis!
+          </p>
 
-          <article>
-            <h3>Abismo</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-              enim voluptatum voluptatibus ullam! Porro nisi ipsa minus
-              reprehenderit commodi quibusdam. Dicta cupiditate ratione dolorem
-              distinctio quae, vitae minus omnis debitis!
-            </p>
-          </article>
+          <h3>Abismo</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+            enim voluptatum voluptatibus ullam! Porro nisi ipsa minus
+            reprehenderit commodi quibusdam. Dicta cupiditate ratione dolorem
+            distinctio quae, vitae minus omnis debitis!
+          </p>
 
-          <article>
-            <h3>Ressurgimento</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-              enim voluptatum voluptatibus ullam! Porro nisi ipsa minus
-              reprehenderit commodi quibusdam. Dicta cupiditate ratione dolorem
-              distinctio quae, vitae minus omnis debitis!
-            </p>
-          </article>
+          <h3>Ressurgimento</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+            enim voluptatum voluptatibus ullam! Porro nisi ipsa minus
+            reprehenderit commodi quibusdam. Dicta cupiditate ratione dolorem
+            distinctio quae, vitae minus omnis debitis!
+          </p>
         </Container>
       </StyledHistoria>
     </>
