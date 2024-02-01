@@ -17,6 +17,7 @@ const StyledHome = styled.section`
     background-color: var(--cor-primaria);
     padding: 1rem;
     box-shadow: var(--sombra-box);
+    text-shadow: var(--cor-quartenaria) 0.6px 0 0.8px;
     border-radius: var(--borda-arredondada);
   }
 
@@ -101,7 +102,7 @@ export default function Home() {
       </Head>
 
       <StyledHome>
-        {fraseAtual && <h3>"{fraseAtual.mensagem}".</h3>}
+        {fraseAtual && <h3>"{fraseAtual.mensagem}"</h3>}
 
         <Container>
           <article>
