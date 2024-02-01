@@ -107,10 +107,10 @@ export default function Home() {
           <article>
             <Image src="/images/demonio.jpg" width={550} height={550} />
             <p>
-              "A intensa revolta se apossava de cada centímetro do peito,
-              enquanto crescia em meio ao pecado, se iniciou a jornada nas
-              sombras da vida. Sob os sussurros dos demônios, a mente repetia o
-              ditado 'Mente vazia é oficina do cão'."
+              "A intensa revolta se apossava do peito, crescendo em meio ao
+              pecado se iniciava a jornada nas sombras da vida. Sob os sussurros
+              de demônios, a mente repetia <i>'Mente vazia é oficina do cão'</i>{" "}
+              ".
             </p>
           </article>
 
@@ -119,8 +119,8 @@ export default function Home() {
             <p>
               "Foi quando um anjo celestial trouxe a luz, guiando essa
               transformação e tornando a jornada uma busca por redenção, onde a
-              fé se fortalecia foi onde houve a promessa 'Vou te orgulhar minha
-              rainha'. "
+              fé se fortalecia foi onde houve a promessa{" "}
+              <i>'Vou te orgulhar minha rainha'</i> ".
             </p>
           </article>
 
@@ -129,8 +129,8 @@ export default function Home() {
             <p>
               "Ciente de sua imperfeição, mas determinada a honrar a promessa,
               ela persiste desafiando as sombras, mantendo acesa a chama da
-              esperança, ela persistiu desafiando as sombras, agradecendo ao
-              anjo protetor que ilumina seu caminho."
+              esperança agradecendo ao seu anjo protetor que iluminando seu
+              caminho."
             </p>
           </article>
         </Container>
