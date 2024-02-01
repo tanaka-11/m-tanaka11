@@ -4,6 +4,8 @@ import Container from "@/components/ui/Container";
 
 // CSS
 const StyledHistoria = styled.section`
+  /* margin: 1rem; */
+
   h2 {
     color: var(--cor-quartenaria);
   }

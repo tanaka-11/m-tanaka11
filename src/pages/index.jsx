@@ -1,15 +1,28 @@
 import Container from "@/components/ui/Container";
+import apiFake from "./api/server";
 import Head from "next/head";
-import Image from "next/image";
+// import Image from "next/image";
 import styled from "styled-components";
+import React, { useState, useEffect } from "react";
 
+// CSS
 const StyledHome = styled.section`
   h2 {
     font-style: italic;
+    text-align: center;
   }
 `;
 
+// Função de Servidor
+
 export default function Home() {
+  const [fraseAtual, setFraseAtual] = useState(null);
+
+  useEffect(() => {
+    const fraseAleatoria = apiFake[Math.floor(Math.random() * apiFake.length)];
+    setFraseAtual(fraseAleatoria);
+  }, []);
+
   return (
     <>
       <Head>
@@ -17,7 +30,7 @@ export default function Home() {
       </Head>
 
       <StyledHome>
-        <h2>"Frase...."</h2>
+        {fraseAtual && <h2>"{fraseAtual.motivacional}".</h2>}
 
         <Container>
           <article>

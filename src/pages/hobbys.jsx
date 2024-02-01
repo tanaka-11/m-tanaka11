@@ -8,15 +8,15 @@ const StyledHobbys = styled.section`
     color: var(--cor-roxa);
   }
 
-  article {
-    margin: 1rem;
-  }
-
   @media screen and (min-width: 768px) {
     div {
       display: flex;
       justify-content: space-evenly;
       padding: 2rem;
+    }
+
+    article {
+      margin: 1rem;
     }
   }
 `;
