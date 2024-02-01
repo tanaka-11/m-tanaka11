@@ -7,6 +7,37 @@ const StyledContato = styled.section`
   h2 {
     color: var(--cor-terciaria);
   }
+
+  form > div {
+    display: flex;
+    flex-direction: column;
+    margin: 0.3rem;
+    padding: 0.8rem;
+    font-weight: bold;
+
+    & input,
+    & textarea {
+      padding: 0.8rem;
+      border: none;
+      margin: 0.2rem;
+      box-shadow: var(--sombra-box);
+      border-radius: 6px;
+    }
+
+    & button {
+      background-color: var(--cor-terciaria);
+      color: #f7f7f7;
+      padding: 0.8rem;
+      border-radius: var(--borda-arredondada);
+      cursor: pointer;
+      border: none;
+
+      &:hover,
+      &:focus {
+        background-color: var(--cor-roxa);
+      }
+    }
+  }
 `;
 
 export default function Contato() {
