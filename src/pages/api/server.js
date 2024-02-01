@@ -1,8 +1,6 @@
-// const serverAPI = `https://zenquotes.io/api/random`;
+// const serverAPI = `https://api.razorpay.com/v1/payments/`;
 
-// export default serverAPI;
-
-//Api Fake para Teste
+//Api Fake para as frases
 const apiFake = [
   {
     id: 1,
@@ -19,3 +17,4 @@ const apiFake = [
 ];
 
 export default apiFake;
+// export {apiFake, serverAPI};

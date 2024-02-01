@@ -6,7 +6,6 @@ const StyledContainer = styled.div`
   border-radius: var(--borda-arredondada);
   padding: 1rem;
   margin: 1rem;
-  /* margin-bottom: 0; */
 `;
 
 export default function Container({ children }) {

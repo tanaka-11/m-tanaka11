@@ -11,7 +11,7 @@ const StyledContato = styled.section`
   form > div {
     display: flex;
     flex-direction: column;
-    margin: 0.3rem;
+    margin: 0.3rem auto;
     padding: 0.8rem;
     font-weight: bold;
 

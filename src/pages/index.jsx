@@ -1,5 +1,6 @@
 import Container from "@/components/ui/Container";
 import apiFake from "./api/server";
+// import { serverAPI } from "./api/server";
 import Head from "next/head";
 // import Image from "next/image";
 import styled from "styled-components";
@@ -16,6 +17,7 @@ const StyledHome = styled.section`
 // Função de Servidor
 
 export default function Home() {
+  // Hook para as Frases
   const [fraseAtual, setFraseAtual] = useState(null);
 
   useEffect(() => {
