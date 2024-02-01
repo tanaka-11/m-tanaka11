@@ -2,7 +2,7 @@ import Container from "@/components/ui/Container";
 import apiFake from "./api/server";
 // import { serverAPI } from "./api/server";
 import Head from "next/head";
-// import Image from "next/image";
+import Image from "next/image";
 import styled from "styled-components";
 import React, { useState, useEffect } from "react";
 
@@ -17,7 +17,63 @@ const StyledHome = styled.section`
     padding: 1rem;
     box-shadow: var(--sombra-box);
     border-radius: var(--borda-arredondada);
-    /* color: var(--cor-preto); */
+  }
+
+  article {
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: var(--sombra-box);
+    border-radius: var(--borda-arredondada);
+    background-color: var(--cor-preto);
+    color: var(--cor-primaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden; /* Evita que as sombras vazem para fora do article */
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  /* Estilos para telas com largura mínima de 320px */
+  @media screen and (min-width: 320px) {
+    img {
+      max-height: 300px;
+    }
+
+    article {
+      width: 90%;
+    }
+  }
+
+  /* Estilos para telas com largura mínima de 500px */
+  @media screen and (min-width: 500px) {
+    img {
+      min-height: 400px;
+      height: auto;
+      width: 100%;
+    }
+
+    article {
+      width: 90%;
+    }
+  }
+
+  /* Estilos para telas com largura mínima de 1000px */
+  @media screen and (min-width: 1000px) {
+    img {
+      min-height: 650px;
+      height: auto;
+      width: 100%;
+    }
+
+    article {
+      width: 900px;
+    }
   }
 `;
 
@@ -43,32 +99,26 @@ export default function Home() {
 
         <Container>
           <article>
-            {/* <Image></Image> */}
+            <Image src="/images/anjo.jpg" width={550} height={550} />
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Doloribus laudantium sunt nisi dignissimos numquam ipsa illo,
-              veniam excepturi, distinctio magnam officiis sit minima
-              consectetur quia! Explicabo nam maxime vero necessitatibus?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+              alias.
             </p>
           </article>
 
           <article>
-            {/* <Image></Image> */}
+            <Image src="/images/anjo.jpg" width={550} height={550} />
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Doloribus laudantium sunt nisi dignissimos numquam ipsa illo,
-              veniam excepturi, distinctio magnam officiis sit minima
-              consectetur quia! Explicabo nam maxime vero necessitatibus?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium, facilis!
             </p>
           </article>
 
           <article>
-            {/* <Image></Image> */}
+            <Image src="/images/anjo.jpg" width={550} height={550} />
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Doloribus laudantium sunt nisi dignissimos numquam ipsa illo,
-              veniam excepturi, distinctio magnam officiis sit minima
-              consectetur quia! Explicabo nam maxime vero necessitatibus?
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Possimus, saepe?
             </p>
           </article>
         </Container>
