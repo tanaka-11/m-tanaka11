@@ -20,6 +20,11 @@ const StyledHome = styled.section`
     border-radius: var(--borda-arredondada);
   }
 
+  p {
+    margin: 10px;
+    padding: 10px;
+  }
+
   article {
     margin: 20px auto;
     text-align: center;
@@ -102,24 +107,30 @@ export default function Home() {
           <article>
             <Image src="/images/demonio.jpg" width={550} height={550} />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-              alias.
+              "A intensa revolta se apossava de cada centímetro do peito,
+              enquanto crescia em meio ao pecado, se iniciou a jornada nas
+              sombras da vida. Sob os sussurros dos demônios, a mente repetia o
+              ditado 'Mente vazia é oficina do cão'."
             </p>
           </article>
 
           <article>
             <Image src="/images/anjo.jpg" width={550} height={550} />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Praesentium, facilis!
+              "Foi quando um anjo celestial trouxe a luz, guiando essa
+              transformação e tornando a jornada uma busca por redenção, onde a
+              fé se fortalecia foi onde houve a promessa 'Vou te orgulhar minha
+              rainha'. "
             </p>
           </article>
 
           <article>
             <Image src="/images/protecao.jpg" width={550} height={550} />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Possimus, saepe?
+              "Ciente de sua imperfeição, mas determinada a honrar a promessa,
+              ela persiste desafiando as sombras, mantendo acesa a chama da
+              esperança, ela persistiu desafiando as sombras, agradecendo ao
+              anjo protetor que ilumina seu caminho."
             </p>
           </article>
         </Container>
