@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <link
           rel="shortcut icon"
-          href="/images/mascara.png"
+          href="/images/favicon.png"
           type="image/png"
           sizes="512x512"
         />

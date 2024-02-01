@@ -8,9 +8,16 @@ import React, { useState, useEffect } from "react";
 
 // CSS
 const StyledHome = styled.section`
-  h2 {
+  h3 {
     font-style: italic;
+    font-weight: bold;
     text-align: center;
+    margin: 1rem;
+    background-color: var(--cor-primaria);
+    padding: 1rem;
+    box-shadow: var(--sombra-box);
+    border-radius: var(--borda-arredondada);
+    /* color: var(--cor-preto); */
   }
 `;
 
@@ -28,11 +35,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>@_Tanaka11_</title>
+        <title>_Tanaka11_</title>
       </Head>
 
       <StyledHome>
-        {fraseAtual && <h2>"{fraseAtual.motivacional}".</h2>}
+        {fraseAtual && <h3>"{fraseAtual.mensagem}".</h3>}
 
         <Container>
           <article>
