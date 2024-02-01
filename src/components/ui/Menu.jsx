@@ -31,7 +31,7 @@ const StyledNav = styled.nav`
 export default function Menu() {
   return (
     <StyledNav>
-      <Link href="/historia">Minha História</Link>
+      <Link href="/">Minha História</Link>
       <Link href="/hobbys">Hobbys</Link>
       <Link href="/contato">Contato</Link>
     </StyledNav>

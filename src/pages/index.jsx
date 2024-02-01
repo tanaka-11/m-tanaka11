@@ -10,7 +10,8 @@ import React, { useState, useEffect } from "react";
 const StyledHome = styled.section`
   h3 {
     font-style: italic;
-    font-weight: bold;
+    font-weight: 550;
+    font-size: 18px;
     text-align: center;
     margin: 1rem;
     background-color: var(--cor-primaria);
@@ -72,7 +73,7 @@ const StyledHome = styled.section`
     }
 
     article {
-      width: 900px;
+      width: 850px;
     }
   }
 `;
@@ -99,7 +100,7 @@ export default function Home() {
 
         <Container>
           <article>
-            <Image src="/images/anjo.jpg" width={550} height={550} />
+            <Image src="/images/demonio.jpg" width={550} height={550} />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
               alias.
@@ -115,7 +116,7 @@ export default function Home() {
           </article>
 
           <article>
-            <Image src="/images/anjo.jpg" width={550} height={550} />
+            <Image src="/images/protecao.jpg" width={550} height={550} />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Possimus, saepe?
