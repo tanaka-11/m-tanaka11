@@ -45,7 +45,7 @@ export default function Hobbys() {
           </article>
 
           <article>
-            <h3>Musica</h3>
+            <h3>Música</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
               error quis ipsam quisquam recusandae, voluptatibus deserunt est
