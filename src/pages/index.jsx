@@ -129,7 +129,7 @@ export default function Home() {
             <p>
               "Ciente de sua imperfeição, mas determinada a honrar a promessa,
               ela persiste desafiando as sombras, mantendo acesa a chama da
-              esperança agradecendo ao seu anjo protetor que iluminando seu
+              esperança agradecendo ao seu anjo protetor por iluminar o seu
               caminho."
             </p>
           </article>
