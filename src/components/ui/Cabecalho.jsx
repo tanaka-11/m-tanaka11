@@ -10,7 +10,7 @@ const StyledHeader = styled.header`
   box-shadow: var(--sombra-box);
 
   hr {
-    width: 70%;
+    width: 75%;
     background: linear-gradient(
       to right,
       var(--cor-quartenaria),

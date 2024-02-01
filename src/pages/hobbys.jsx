@@ -7,6 +7,18 @@ const StyledHobbys = styled.section`
   h2 {
     color: var(--cor-roxa);
   }
+
+  article {
+    margin: 1rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    div {
+      display: flex;
+      justify-content: space-evenly;
+      padding: 2rem;
+    }
+  }
 `;
 
 export default function Hobbys() {
