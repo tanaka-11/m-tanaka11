@@ -7,7 +7,6 @@ import Container from "@/components/ui/Container";
 const StyledHobbys = styled.section`
   h2 {
     color: var(--cor-roxa);
-    background-color: var(--cor-preto);
   }
 
   div {

@@ -9,7 +9,6 @@ import { useRouter } from "next/router";
 const StyledContato = styled.section`
   h2 {
     color: var(--cor-terciaria);
-    background-color: var(--cor-preto);
   }
 
   form > div {
