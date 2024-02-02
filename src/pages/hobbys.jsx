@@ -16,15 +16,19 @@ const StyledHobbys = styled.section`
     margin: 1rem;
   }
 
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
   article {
     background-color: var(--cor-preto);
     color: var(--cor-primaria);
     border-radius: var(--borda-arredondada);
-    margin: 0.5rem;
 
     h3 {
       color: var(--cor-roxa);
-      margin: 1rem;
+      margin: 0.6rem;
     }
 
     p {
@@ -45,20 +49,65 @@ const StyledHobbys = styled.section`
       display: flex;
       flex-direction: column;
     }
+
+    article {
+      margin: 0.8rem auto;
+      padding: 0.6rem;
+      width: 100%;
+
+      & p {
+        margin: 0.6rem;
+      }
+    }
+
+    img {
+      min-width: 220px;
+      height: 350px;
+      width: 100%;
+    }
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 500px) and (max-width: 1100px) {
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+
+    article {
+      width: 80%;
+      margin: 0.8rem auto;
+      padding: 0.6rem;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 450px;
+      height: 450px;
+      width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 1100px) {
     div {
       display: flex;
       flex-direction: row;
     }
 
     article {
-      width: 90%;
+      width: 70%;
+      margin: 0.8rem;
+      padding: 0.6rem;
+    }
 
-      & p {
-        word-break: auto-phrase;
-      }
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 450px;
+      height: 500px;
+      width: 100%;
     }
   }
 `;
@@ -84,7 +133,7 @@ export default function Hobbys() {
               "De alguma maneira, foi algo que trouxe mais maturidade à minha
               vida e a salvou de certa forma."
             </p>
-            <Image />
+            <Image src="/images/programacao.jpg" width={300} height={300} />
           </article>
 
           <article>
@@ -93,17 +142,17 @@ export default function Hobbys() {
               "Onde tem o alivio da mente, sinto-me leve, em um momento onde
               posso deixar para trás as preocupações da vida."
             </p>
-            <Image />
+            <Image src="/images/bike.jpg" width={300} height={300} />
           </article>
 
           <article>
-            <h3>Lazer</h3>
+            <h3>Amor</h3>
             <p>
-              "Na melodia, encontro um refúgio onde posso expressar livremente
-              meus sentimentos, transformando as notas em um espelho da minha
-              alma."
+              "Considerado, admirado ele reinou. Nos braços de uma mina conheceu
+              o amor, uma parceira, conselheira que te ensinou, que desde que o
+              mundo é mundo existe dor"
             </p>
-            <Image />
+            <Image src="/images/bia.jpg" width={300} height={300} />
           </article>
         </Container>
       </StyledHobbys>
