@@ -18,6 +18,15 @@ const StyledHome = styled.section`
     padding: 1rem;
     box-shadow: var(--sombra-box);
     border-radius: var(--borda-arredondada);
+    /* transform: scale(0.9); */
+    transition: transform 0.5s ease;
+
+    &:hover,
+    &:focus {
+      transform: scale(1);
+
+      color: var(--cor-roxa);
+    }
   }
 
   p {
@@ -44,6 +53,11 @@ const StyledHome = styled.section`
     width: 100%;
     height: auto;
     max-width: 100%;
+    transition: transform 0.7s ease;
+    &:hover,
+    &:focus {
+      transform: scale(1.1);
+    }
   }
 
   /* Estilos para telas com largura mínima de 320px */
@@ -93,7 +107,7 @@ const StyledHome = styled.section`
     }
 
     p {
-      font-size: 24px;
+      font-size: 22px;
     }
   }
 `;
