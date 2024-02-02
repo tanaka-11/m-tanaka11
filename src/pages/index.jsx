@@ -1,6 +1,5 @@
 import Container from "@/components/ui/Container";
-import apiFake from "./api/server";
-// import { serverAPI } from "./api/server";
+import serverAPI from "./api/server";
 import Head from "next/head";
 import Image from "next/image";
 import styled from "styled-components";
@@ -84,13 +83,36 @@ const StyledHome = styled.section`
 `;
 
 // Função de Servidor
+export async function getStaticProps() {
+  try {
+    // Conexão
+    const resposta = await fetch(`${serverAPI}/mensagens`);
 
-export default function Home() {
+    // Tratativa de Erro
+    if (!resposta.ok) {
+      throw new Error(`Erro: ${resposta.status} - ${resposta.statusText}`);
+    }
+
+    // Dados em formato json
+    const dados = await resposta.json();
+
+    return {
+      props: {
+        mensagens: dados,
+      },
+    };
+  } catch (error) {
+    console.error("Erro de conexão: " + error.message);
+  }
+}
+
+export default function Home({ mensagens }) {
   // Hook para as Frases
   const [fraseAtual, setFraseAtual] = useState(null);
 
   useEffect(() => {
-    const fraseAleatoria = apiFake[Math.floor(Math.random() * apiFake.length)];
+    const fraseAleatoria =
+      mensagens[Math.floor(Math.random() * mensagens.length)];
     setFraseAtual(fraseAleatoria);
   }, []);
 
