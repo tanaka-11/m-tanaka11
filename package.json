@@ -10,7 +10,10 @@
     "api": "json-server --host 10.20.46.32 db.json --port 2112"
   },
   "dependencies": {
+    "i": "^0.3.7",
     "next": "14.1.0",
+    "next-pwa": "^5.6.0",
+    "npm": "^10.4.0",
     "pensador-api": "^1.0.0",
     "react": "^18",
     "react-dom": "^18",
