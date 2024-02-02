@@ -10,7 +10,7 @@ const StyledHome = styled.section`
   h3 {
     font-style: italic;
     font-weight: 550;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     margin: 1rem;
     background-color: var(--cor-preto);
@@ -18,12 +18,6 @@ const StyledHome = styled.section`
     padding: 1rem;
     box-shadow: var(--sombra-box);
     border-radius: var(--borda-arredondada);
-    transition: color 1s ease;
-
-    &:hover,
-    &:focus {
-      color: #9e9ef3;
-    }
   }
 
   p {
@@ -84,6 +78,11 @@ const StyledHome = styled.section`
 
   /* Estilos para telas com largura mínima de 1000px */
   @media screen and (min-width: 1000px) {
+    h3 {
+      height: 150px;
+      font-size: 42px;
+      color: #fff;
+    }
   }
 `;
 
