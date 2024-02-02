@@ -85,7 +85,7 @@ const StyledHome = styled.section`
     }
 
     h3 {
-      font-size: 30px;
+      font-size: 28px;
       width: 80%;
       margin: 1rem auto;
     }
