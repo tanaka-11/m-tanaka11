@@ -86,10 +86,12 @@ const StyledHome = styled.section`
 
     h3 {
       font-size: 30px;
+      width: 80%;
+      margin: 1rem auto;
     }
 
     article {
-      width: 90%;
+      width: 80%;
 
       & p {
         font-size: 26px;
