@@ -38,32 +38,17 @@ export default function Hobbys() {
         <Container>
           <article>
             <h3>Programação</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-              error quis ipsam quisquam recusandae, voluptatibus deserunt est
-              deleniti soluta nam rem autem sunt doloremque, culpa consequuntur.
-              Earum temporibus accusamus porro.
-            </p>
+            <p></p>
           </article>
 
           <article>
             <h3>Atividade Física</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-              error quis ipsam quisquam recusandae, voluptatibus deserunt est
-              deleniti soluta nam rem autem sunt doloremque, culpa consequuntur.
-              Earum temporibus accusamus porro.
-            </p>
+            <p></p>
           </article>
 
           <article>
             <h3>Música</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-              error quis ipsam quisquam recusandae, voluptatibus deserunt est
-              deleniti soluta nam rem autem sunt doloremque, culpa consequuntur.
-              Earum temporibus accusamus porro.
-            </p>
+            <p></p>
           </article>
         </Container>
       </StyledHobbys>

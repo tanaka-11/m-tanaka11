@@ -17,7 +17,6 @@ const StyledHome = styled.section`
     background-color: var(--cor-primaria);
     padding: 1rem;
     box-shadow: var(--sombra-box);
-    text-shadow: var(--cor-quartenaria) 0.6px 0 0.8px;
     border-radius: var(--borda-arredondada);
   }
 
