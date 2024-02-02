@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import styled from "styled-components";
 import Container from "@/components/ui/Container";
 
@@ -8,15 +9,56 @@ const StyledHobbys = styled.section`
     color: var(--cor-roxa);
   }
 
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+  }
+
+  article {
+    background-color: var(--cor-preto);
+    color: var(--cor-primaria);
+    border-radius: var(--borda-arredondada);
+    margin: 0.5rem;
+
+    h3 {
+      color: var(--cor-roxa);
+      margin: 1rem;
+    }
+
+    p {
+      margin: 1rem;
+    }
+
+    &:first-child h3 {
+      color: var(--cor-quartenaria);
+    }
+
+    &:last-child h3 {
+      color: var(--cor-terciaria);
+    }
+  }
+
+  @media screen and (min-width: 320px) {
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
   @media screen and (min-width: 768px) {
     div {
       display: flex;
-      justify-content: space-evenly;
-      padding: 2rem;
+      flex-direction: row;
     }
 
     article {
-      margin: 1rem;
+      width: 90%;
+
+      & p {
+        word-break: auto-phrase;
+      }
     }
   }
 `;
@@ -38,17 +80,30 @@ export default function Hobbys() {
         <Container>
           <article>
             <h3>Programação</h3>
-            <p></p>
+            <p>
+              "De alguma maneira, foi algo que trouxe mais maturidade à minha
+              vida e a salvou de certa forma."
+            </p>
+            <Image />
           </article>
 
           <article>
             <h3>Atividade Física</h3>
-            <p></p>
+            <p>
+              "Onde tem o alivio da mente, sinto-me leve, em um momento onde
+              posso deixar para trás as preocupações da vida."
+            </p>
+            <Image />
           </article>
 
           <article>
             <h3>Música</h3>
-            <p></p>
+            <p>
+              "Na melodia, encontro um refúgio onde posso expressar livremente
+              meus sentimentos, transformando as notas em um espelho da minha
+              alma."
+            </p>
+            <Image />
           </article>
         </Container>
       </StyledHobbys>

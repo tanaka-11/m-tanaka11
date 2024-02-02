@@ -26,6 +26,15 @@ const StyledNav = styled.nav`
       text-transform: uppercase;
     }
   }
+
+  @media screen and (min-width: 320px) {
+    a:hover,
+    a:focus {
+      text-transform: none;
+      font-weight: bold;
+      text-shadow: var(--cor-roxa) 0 0 1px;
+    }
+  }
 `;
 
 export default function Menu() {
