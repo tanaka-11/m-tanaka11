@@ -90,8 +90,15 @@ const StyledHome = styled.section`
       margin: 1rem auto;
     }
 
+    div {
+      width: 80%;
+      margin: 1rem auto;
+      box-shadow: var(--sombra-box);
+    }
+
     article {
       width: 80%;
+      box-shadow: var(--sombra-box);
 
       & p {
         font-size: 26px;
