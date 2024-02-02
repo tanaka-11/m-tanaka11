@@ -97,7 +97,7 @@ export default function Hobbys() {
           </article>
 
           <article>
-            <h3>Música</h3>
+            <h3>Lazer</h3>
             <p>
               "Na melodia, encontro um refúgio onde posso expressar livremente
               meus sentimentos, transformando as notas em um espelho da minha
