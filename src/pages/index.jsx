@@ -86,19 +86,27 @@ const StyledHome = styled.section`
 export async function getStaticProps() {
   try {
     // Conexão
-    const resposta = await fetch(`${serverAPI}/mensagens`);
+    const resposta = await fetch(`${serverAPI}/mensagens.json`);
+
+    // Guardando dados
+    const dados = await resposta.json();
 
     // Tratativa de Erro
     if (!resposta.ok) {
       throw new Error(`Erro: ${resposta.status} - ${resposta.statusText}`);
     }
 
-    // Dados em formato json
-    const dados = await resposta.json();
+    // Função objeto para array
+    const arrayDeMensagens = Object.keys(dados).map((mensagem) => {
+      return {
+        ...dados[mensagem],
+        id: mensagem,
+      };
+    });
 
     return {
       props: {
-        mensagens: dados,
+        mensagens: arrayDeMensagens,
       },
     };
   } catch (error) {
