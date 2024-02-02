@@ -33,12 +33,12 @@ const StyledHobbys = styled.section`
     color: var(--cor-branca);
     border-radius: var(--borda-arredondada);
 
-    h3 {
+    & h3 {
       color: var(--cor-roxa);
       margin: 0.6rem;
     }
 
-    p {
+    & p {
       margin: 1rem;
       min-height: 90px;
     }
@@ -70,7 +70,7 @@ const StyledHobbys = styled.section`
 
     img {
       min-width: 220px;
-      height: 400px;
+      height: 420px;
       width: 100%;
     }
   }
@@ -129,15 +129,6 @@ export default function Hobbys() {
 
         <Container>
           <article>
-            <h3>Programação</h3>
-            <p>
-              "De alguma maneira, foi algo que trouxe mais maturidade à minha
-              vida e a salvou de certa forma."
-            </p>
-            <Image src="/images/programacao.jpg" width={300} height={380} />
-          </article>
-
-          <article>
             <h3>Atividade Física</h3>
             <p>
               "Onde tem o alivio da mente, sinto-me leve, em um momento onde
@@ -147,10 +138,19 @@ export default function Hobbys() {
           </article>
 
           <article>
+            <h3>Programação</h3>
+            <p>
+              "De alguma maneira, foi algo que trouxe mais maturidade à minha
+              vida e a salvou de certa forma."
+            </p>
+            <Image src="/images/programacao2.jpg" width={300} height={380} />
+          </article>
+
+          <article>
             <h3>Amor</h3>
             <p>
-              "Nos braços de alguém, descobri o amor, uma parceira, conselheira
-              que me inspirou a ser quem eu sou hoje."
+              "No abraço dela descobri o amor, se tornou minha parceira,
+              conselheira que me inspira a ser quem eu sou hoje."
             </p>
             <Image src="/images/bia.jpg" width={300} height={380} />
           </article>

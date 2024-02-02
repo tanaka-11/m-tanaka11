@@ -56,6 +56,10 @@ const StyledHome = styled.section`
       width: 90%;
       flex-direction: column;
     }
+
+    p {
+      font-size: 16px;
+    }
   }
 
   /* Estilos para telas com largura mínima de 500px */
@@ -78,10 +82,18 @@ const StyledHome = styled.section`
 
   /* Estilos para telas com largura mínima de 1000px */
   @media screen and (min-width: 1000px) {
+    article {
+      width: 90%;
+    }
+
     h3 {
-      height: 150px;
-      font-size: 42px;
+      height: 140px;
+      font-size: 36px;
       color: #fff;
+    }
+
+    p {
+      font-size: 24px;
     }
   }
 `;

@@ -14,7 +14,7 @@ const StyledContato = styled.section`
   form > div {
     display: flex;
     flex-direction: column;
-    margin: 0.3rem auto;
+    margin: auto;
     padding: 0.8rem;
     font-weight: bold;
 
@@ -22,15 +22,15 @@ const StyledContato = styled.section`
       font-size: 0.9rem;
       color: darkred;
       font-weight: bold;
-      margin-left: 1.3rem;
+      margin-left: 1.5rem;
       margin-top: 0;
+      margin-bottom: 0;
     }
 
     & input,
     & textarea {
       padding: 0.8rem;
       border: none;
-      margin: 0.2rem;
       box-shadow: var(--sombra-box);
       border-radius: 6px;
     }
