@@ -18,12 +18,19 @@ const StyledHobbys = styled.section`
 
   img {
     max-width: 100%;
-    height: auto;
+    cursor: pointer;
+    filter: grayscale(100%) blur(1px);
+    transition: filter 2s ease;
+
+    &:hover,
+    &:focus {
+      filter: grayscale(0) blur(0);
+    }
   }
 
   article {
     background-color: var(--cor-preto);
-    color: var(--cor-primaria);
+    color: var(--cor-branca);
     border-radius: var(--borda-arredondada);
 
     h3 {
@@ -33,6 +40,7 @@ const StyledHobbys = styled.section`
 
     p {
       margin: 1rem;
+      min-height: 90px;
     }
 
     &:first-child h3 {
@@ -62,19 +70,19 @@ const StyledHobbys = styled.section`
 
     img {
       min-width: 220px;
-      height: 350px;
+      height: 400px;
       width: 100%;
     }
   }
 
-  @media screen and (min-width: 500px) and (max-width: 1100px) {
+  @media screen and (min-width: 670px) {
     div {
       display: flex;
       flex-direction: column;
     }
 
     article {
-      width: 80%;
+      width: 90%;
       margin: 0.8rem auto;
       padding: 0.6rem;
     }
@@ -84,7 +92,7 @@ const StyledHobbys = styled.section`
       margin-left: auto;
       margin-right: auto;
       max-width: 450px;
-      height: 450px;
+      height: 540px;
       width: 100%;
     }
   }
@@ -96,18 +104,11 @@ const StyledHobbys = styled.section`
     }
 
     article {
-      width: 70%;
+      width: 100%;
       margin: 0.8rem;
       padding: 0.6rem;
-    }
 
-    img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 450px;
-      height: 500px;
-      width: 100%;
+      justify-content: space-around;
     }
   }
 `;
@@ -133,7 +134,7 @@ export default function Hobbys() {
               "De alguma maneira, foi algo que trouxe mais maturidade à minha
               vida e a salvou de certa forma."
             </p>
-            <Image src="/images/programacao.jpg" width={300} height={300} />
+            <Image src="/images/programacao.jpg" width={300} height={380} />
           </article>
 
           <article>
@@ -142,17 +143,16 @@ export default function Hobbys() {
               "Onde tem o alivio da mente, sinto-me leve, em um momento onde
               posso deixar para trás as preocupações da vida."
             </p>
-            <Image src="/images/bike.jpg" width={300} height={300} />
+            <Image src="/images/bike.jpg" width={300} height={380} />
           </article>
 
           <article>
             <h3>Amor</h3>
             <p>
-              "Considerado, admirado ele reinou. Nos braços de uma mina conheceu
-              o amor, uma parceira, conselheira que te ensinou, que desde que o
-              mundo é mundo existe dor"
+              "Nos braços de alguém, descobri o amor, uma parceira, conselheira
+              que me inspirou a ser quem eu sou hoje."
             </p>
-            <Image src="/images/bia.jpg" width={300} height={300} />
+            <Image src="/images/bia.jpg" width={300} height={380} />
           </article>
         </Container>
       </StyledHobbys>

@@ -27,7 +27,7 @@ const StyledNav = styled.nav`
     }
   }
 
-  @media screen and (min-width: 320px) {
+  @media screen and (max-width: 400px) {
     a:hover,
     a:focus {
       text-transform: none;

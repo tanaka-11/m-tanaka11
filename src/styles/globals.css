@@ -11,11 +11,12 @@ html {
 
 /* Variáveis CSS */
 :root {
-  --cor-primaria: #edeff0ee;
+  --cor-primaria: #d3d3d3ee;
   --cor-secundaria: #3a5e98;
   --cor-terciaria: #2aa3db;
   --cor-quartenaria: #d7598b;
   --cor-preto: #000000cb;
+  --cor-branca: #edeff0ee;
   --cor-roxa: #7c7cbd;
   --cor-fundo: #a7a7b8;
   --sombra-box: 0px 10px 15px -3px #00000041;
@@ -46,8 +47,9 @@ h3 {
 
 h2 {
   margin: 1rem;
-  background-color: var(--cor-primaria);
+  background-color: var(--cor-branca);
   padding: 1rem;
   box-shadow: var(--sombra-box);
   border-radius: var(--borda-arredondada);
+  text-align: center;
 }

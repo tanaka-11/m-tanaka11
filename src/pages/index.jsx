@@ -14,10 +14,16 @@ const StyledHome = styled.section`
     text-align: center;
     margin: 1rem;
     background-color: var(--cor-preto);
-    color: var(--cor-primaria);
+    color: var(--cor-branca);
     padding: 1rem;
     box-shadow: var(--sombra-box);
     border-radius: var(--borda-arredondada);
+    transition: color 1s ease;
+
+    &:hover,
+    &:focus {
+      color: #9e9ef3;
+    }
   }
 
   p {
@@ -31,12 +37,12 @@ const StyledHome = styled.section`
     box-shadow: var(--sombra-box);
     border-radius: var(--borda-arredondada);
     background-color: var(--cor-preto);
-    color: var(--cor-primaria);
+    color: var(--cor-branca);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     overflow: hidden; /* Evita que as sombras vazem para fora do article */
   }
 
@@ -49,7 +55,7 @@ const StyledHome = styled.section`
   /* Estilos para telas com largura mínima de 320px */
   @media screen and (min-width: 320px) {
     img {
-      max-height: 300px;
+      max-height: 350px;
     }
 
     article {
@@ -59,7 +65,7 @@ const StyledHome = styled.section`
   }
 
   /* Estilos para telas com largura mínima de 500px */
-  @media screen and (min-width: 500px) {
+  @media screen and (min-width: 720px) {
     img {
       min-height: 400px;
       height: auto;
@@ -71,39 +77,13 @@ const StyledHome = styled.section`
     }
 
     article {
-      width: 90%;
+      width: 100%;
       flex-direction: row;
     }
   }
 
   /* Estilos para telas com largura mínima de 1000px */
   @media screen and (min-width: 1000px) {
-    img {
-      min-height: 650px;
-      height: auto;
-      width: 100%;
-    }
-
-    h3 {
-      font-size: 28px;
-      width: 80%;
-      margin: 1rem auto;
-    }
-
-    div {
-      width: 80%;
-      margin: 1rem auto;
-      box-shadow: var(--sombra-box);
-    }
-
-    article {
-      width: 80%;
-      box-shadow: var(--sombra-box);
-
-      & p {
-        font-size: 26px;
-      }
-    }
   }
 `;
 
@@ -170,7 +150,7 @@ export default function Home({ mensagens }) {
             <p>
               "A intensa revolta se apossava do peito, crescendo em meio ao
               pecado se iniciava a jornada nas sombras da vida. Sob os sussurros
-              de demônios, a mente repetia <i>'Mente vazia é oficina do cão'</i>
+              de demônios, a mente repetia<i> 'Mente vazia é oficina do cão'</i>
               ".
             </p>
           </article>
@@ -187,7 +167,7 @@ export default function Home({ mensagens }) {
               "Foi quando um anjo celestial trouxe a luz, guiando essa
               transformação e tornando a jornada uma busca por redenção, onde a
               fé se fortalecia foi onde houve a promessa
-              <i>'Vou te orgulhar minha rainha'</i> ".
+              <i> 'Vou te orgulhar minha rainha'</i> ".
             </p>
           </article>
 
