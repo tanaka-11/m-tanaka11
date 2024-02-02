@@ -6,6 +6,7 @@ import styled from "styled-components";
 const StyledContato = styled.section`
   h2 {
     color: var(--cor-terciaria);
+    background-color: var(--cor-preto);
   }
 
   form > div {
