@@ -52,7 +52,7 @@ const StyledHobbys = styled.section`
     }
   }
 
-  footer {
+  footer h3 {
     color: var(--cor-roxa);
   }
 

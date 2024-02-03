@@ -61,7 +61,7 @@ const StyledHome = styled.section`
     }
   }
 
-  footer {
+  footer h3 {
     color: var(--cor-quartenaria);
   }
 

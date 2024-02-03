@@ -50,7 +50,7 @@ const StyledContato = styled.section`
     }
   }
 
-  footer {
+  footer h3 {
     color: var(--cor-terciaria);
   }
 `;
