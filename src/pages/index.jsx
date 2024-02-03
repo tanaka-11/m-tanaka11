@@ -50,19 +50,16 @@ const StyledHome = styled.section`
   }
 
   img {
-    & #element,
-    &.initial-hover {
-      width: 100%;
-      height: auto;
-      max-width: 100%;
-      transition: transform 0.7s ease, filter 2s ease;
-      filter: grayscale(100%);
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    transition: transform 0.7s ease, filter 2s ease;
+    filter: grayscale(100%);
 
-      &:hover,
-      &:focus {
-        transform: scale(1.1);
-        filter: grayscale(65%);
-      }
+    &:hover,
+    &:focus {
+      transform: scale(1.1);
+      filter: grayscale(65%);
     }
   }
 
@@ -161,18 +158,6 @@ export default function Home({ mensagens }) {
     setFraseAtual(fraseAleatoria);
   }, []);
 
-  // Hook para o Hover
-  useEffect(() => {
-    const addInitialHover = () => {
-      const element = document.getElementById("element");
-      if (element) {
-        element.classList.add("initial-hover");
-      }
-    };
-
-    addInitialHover();
-  }, []);
-
   return (
     <>
       <Head>
@@ -182,7 +167,7 @@ export default function Home({ mensagens }) {
       <StyledHome>
         {fraseAtual && <h3>"{fraseAtual.mensagem}"</h3>}
 
-        <Container id="element" className="initial-hover">
+        <Container>
           <article>
             <Image
               src="/images/demonio.jpg"
