@@ -28,6 +28,7 @@ const Styled404 = styled.section`
 
     & p {
       font-size: 30px;
+      margin: 1rem;
     }
 
     & img {
@@ -67,7 +68,6 @@ const Styled404 = styled.section`
 
       & p {
         font-size: 30px;
-        margin: 1rem;
       }
 
       & img {
