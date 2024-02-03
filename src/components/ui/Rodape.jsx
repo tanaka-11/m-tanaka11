@@ -12,11 +12,11 @@ const StyledRodape = styled.footer`
   justify-content: center;
 
   span {
-    color: var(--cor-quartenaria);
+    color: var(--cor-terciaria);
   }
 
   h3 {
-    color: var(--cor-terciaria);
+    color: var(--cor-quartenaria);
   }
 `;
 
