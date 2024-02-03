@@ -18,6 +18,7 @@ const StyledContato = styled.section`
     margin: auto;
     padding: 0.8rem;
     font-weight: bold;
+    background-color: var(--cor-cinza);
 
     & + p {
       font-size: 0.9rem;
