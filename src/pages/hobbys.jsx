@@ -150,7 +150,7 @@ export default function Hobbys() {
             <h3>Amor</h3>
             <p>
               "No abraço dela descobri o amor, se tornou minha parceira,
-              conselheira que me inspira a ser quem eu sou hoje."
+              conselheira, que me inspira a ser quem eu sou hoje."
             </p>
             <Image src="/images/bia.jpg" width={300} height={380} />
           </article>
