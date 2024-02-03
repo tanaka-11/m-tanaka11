@@ -24,12 +24,12 @@ const Styled404 = styled.section`
     margin: auto;
 
     & p {
-      font-size: 20px;
+      font-size: 30px;
     }
 
     & img {
-      width: 100%;
-      height: 500px;
+      width: 550px;
+      height: 550px;
       max-width: 100%;
     }
   }
@@ -37,9 +37,11 @@ const Styled404 = styled.section`
   @media screen and (min-width: 320px) {
     article {
       width: 90%;
+      background-color: var(--cor-preto);
 
       & p {
-        font-size: 16px;
+        font-size: 20px;
+        color: var(--cor-branca);
       }
 
       & h1 {
@@ -47,7 +49,7 @@ const Styled404 = styled.section`
       }
 
       & img {
-        max-height: 350px;
+        height: 350px;
       }
     }
   }
