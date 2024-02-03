@@ -9,7 +9,7 @@ import { useRouter } from "next/router";
 const StyledContato = styled.section`
   h2 {
     color: var(--cor-terciaria);
-    background-color: var(--cor-cinza);
+    background-color: var(--cor-primaria);
   }
 
   div {
@@ -30,7 +30,7 @@ const StyledContato = styled.section`
 
     & + p {
       font-size: 0.9rem;
-      color: red;
+      color: #9c0a0a;
       font-weight: bold;
       margin-left: 1.5rem;
       margin-top: 0;
