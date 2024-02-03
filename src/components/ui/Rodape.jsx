@@ -5,7 +5,6 @@ import { useRouter } from "next/router";
 // CSS
 const StyledRodape = styled.footer`
   background-color: var(--cor-preto);
-  color: var(--cor-primaria);
   box-shadow: var(--sombra-box);
   height: 10vh;
   padding: 1rem;
@@ -30,7 +29,7 @@ export default function Rodape() {
       color = "#2aa3db";
     }
 
-    // Defina a cor usando styled-components props
+    // Atualize a propriedade textColor no StyledRodape
     document
       .getElementById("meuRodape")
       .style.setProperty("--text-color", color);
