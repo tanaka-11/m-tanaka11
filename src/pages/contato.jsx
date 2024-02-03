@@ -13,7 +13,7 @@ const StyledContato = styled.section`
   }
 
   div {
-    background-color: var(--cor-cinza);
+    background-color: var(--cor-preta);
   }
 
   form {
@@ -30,7 +30,7 @@ const StyledContato = styled.section`
 
     & + p {
       font-size: 0.9rem;
-      color: #9c0a0a;
+      color: #b30c0c;
       font-weight: bold;
       margin-left: 1.5rem;
       margin-top: 0;
