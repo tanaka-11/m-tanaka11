@@ -12,10 +12,8 @@ const StyledContato = styled.section`
     background-color: var(--cor-preto);
   }
 
-  div {
-    &.contato {
-      background-color: #1c1b1b;
-    }
+  .contato {
+    background-color: #1c1b1b;
   }
 
   form {
