@@ -9,11 +9,11 @@ import React, { useState, useEffect } from "react";
 const StyledHome = styled.section`
   h3 {
     font-style: italic;
-    font-weight: 550;
-    font-size: 20px;
+    font-weight: 500;
+    /* font-size: 20px; */
     text-align: center;
     margin: 1rem;
-    background-color: var(--cor-preto);
+    background-color: #3c3b3d;
     color: var(--cor-branca);
     padding: 1rem;
     box-shadow: var(--sombra-box);
@@ -22,8 +22,10 @@ const StyledHome = styled.section`
 
     &:hover,
     &:focus {
-      transform: scale(1);
-      color: var(--cor-roxa);
+      transform: scale(1.02);
+      background-color: var(--cor-preto);
+      color: #fff;
+      /* font-weight: bold; */
     }
   }
 
@@ -57,7 +59,7 @@ const StyledHome = styled.section`
     &:hover,
     &:focus {
       transform: scale(1.1);
-      filter: grayscale(0);
+      filter: grayscale(65%);
     }
   }
 
@@ -102,13 +104,14 @@ const StyledHome = styled.section`
     }
 
     h3 {
-      height: 140px;
-      font-size: 36px;
+      height: 130px;
+      font-size: 30px;
       color: #fff;
+      text-align: center;
     }
 
     p {
-      font-size: 22px;
+      font-size: 20px;
     }
   }
 `;
