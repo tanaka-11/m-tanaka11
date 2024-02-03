@@ -30,22 +30,24 @@ const Styled404 = styled.section`
     & img {
       width: 550px;
       height: 550px;
-      max-width: 100%;
+      /* max-width: 100%; */
     }
   }
 
   @media screen and (min-width: 320px) {
+    h1 {
+      font-size: 1rem;
+    }
+
     article {
       width: 90%;
+      margin: 1rem;
+      padding: 1rem;
       background-color: var(--cor-preto);
 
       & p {
         font-size: 20px;
         color: var(--cor-branca);
-      }
-
-      & h1 {
-        font-size: 1rem;
       }
 
       & img {
