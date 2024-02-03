@@ -12,7 +12,7 @@ const StyledHome = styled.section`
     font-weight: 500;
     text-align: center;
     margin: 1rem;
-    background-color: var(--cor-preto);
+    background-color: var(--cor-cinza);
     color: var(--cor-branca);
     padding: 1rem;
     box-shadow: var(--sombra-box);
