@@ -26,6 +26,8 @@ export default function Rodape() {
       setTextColor("#7c7cbd");
     } else if (router.pathname === "/contato") {
       setTextColor("#2aa3db");
+    } else if (router.pathname === "/404") {
+      setTextColor("#cc2929;");
     }
   }, [router.pathname]);
 
