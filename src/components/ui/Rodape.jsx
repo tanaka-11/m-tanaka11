@@ -37,7 +37,7 @@ export default function Rodape() {
   }, [router.pathname]);
 
   return (
-    <StyledRodape id="meuRodape" textColor="#edeff0ee">
+    <StyledRodape id="meuRodape" textColor={color}>
       <h3>Direitos Reservados ©</h3>
     </StyledRodape>
   );
