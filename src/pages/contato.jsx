@@ -12,9 +12,9 @@ const StyledContato = styled.section`
     background-color: var(--cor-preto);
   }
 
-  .contato {
+  /* .contato {
     background-color: #222225;
-  }
+  } */
 
   form {
     border-radius: var(--borda-arredondada);

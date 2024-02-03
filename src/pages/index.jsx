@@ -12,7 +12,7 @@ const StyledHome = styled.section`
     font-weight: 500;
     text-align: center;
     margin: 1rem;
-    background-color: var(--cor-cinza);
+    background-color: var(--cor-preto-transparente);
     color: var(--cor-branca);
     padding: 1rem;
     box-shadow: var(--sombra-box);
@@ -37,7 +37,7 @@ const StyledHome = styled.section`
     text-align: center;
     box-shadow: var(--sombra-box);
     border-radius: var(--borda-arredondada);
-    background-color: var(--cor-preto);
+    background-color: var(--cor-preto-transparente);
     color: var(--cor-branca);
     display: flex;
     justify-content: center;

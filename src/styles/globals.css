@@ -15,7 +15,8 @@ html {
   --cor-secundaria: #3a5e98;
   --cor-terciaria: #2aa3db;
   --cor-quartenaria: #d7598b;
-  --cor-preto: #000000cb;
+  --cor-preto-transparente: #000000cb;
+  --cor-preto: #222225;
   --cor-cinza: #4e4c50;
   --cor-branca: #edeff0ee;
   --cor-roxa: #6c6cbd;
