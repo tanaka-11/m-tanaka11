@@ -104,70 +104,72 @@ export default function Contato() {
       <StyledContato>
         <h2>Contato</h2>
 
-        <Container className="contato">
-          <form
-            action=""
-            method="post"
-            // programação do useForm
-            onSubmit={handleSubmit((dados) => {
-              enviarContato(dados);
-            })}
-          >
-            <div>
-              <label htmlFor="nome">Nome </label>
-              <input
-                type="text"
-                name="nome"
-                id="nome"
-                {...register("nome", { required: true })}
-              />
-            </div>
+        <div className="contato">
+          <Container>
+            <form
+              action=""
+              method="post"
+              // programação do useForm
+              onSubmit={handleSubmit((dados) => {
+                enviarContato(dados);
+              })}
+            >
+              <div>
+                <label htmlFor="nome">Nome </label>
+                <input
+                  type="text"
+                  name="nome"
+                  id="nome"
+                  {...register("nome", { required: true })}
+                />
+              </div>
 
-            {errors.nome?.type == "required" && (
-              <p>Você deve digitar um nome.</p>
-            )}
+              {errors.nome?.type == "required" && (
+                <p>Você deve digitar um nome.</p>
+              )}
 
-            <div>
-              <label htmlFor="email">E-mail </label>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                {...register("email", { required: true })}
-              />
-            </div>
+              <div>
+                <label htmlFor="email">E-mail </label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  {...register("email", { required: true })}
+                />
+              </div>
 
-            {errors.email?.type == "required" && (
-              <p>Você deve digitar um email.</p>
-            )}
+              {errors.email?.type == "required" && (
+                <p>Você deve digitar um email.</p>
+              )}
 
-            <div>
-              <label htmlFor="mensagem">Mensagem </label>
-              <textarea
-                name="mensagem"
-                id="mensagem"
-                cols="30"
-                rows="8"
-                maxLength={200}
-                {...register("mensagem", {
-                  required: true,
-                  minLength: 20,
-                })}
-              ></textarea>
-            </div>
+              <div>
+                <label htmlFor="mensagem">Mensagem </label>
+                <textarea
+                  name="mensagem"
+                  id="mensagem"
+                  cols="30"
+                  rows="8"
+                  maxLength={200}
+                  {...register("mensagem", {
+                    required: true,
+                    minLength: 20,
+                  })}
+                ></textarea>
+              </div>
 
-            {errors.mensagem?.type == "required" && (
-              <p>Você deve digitar uma mensagem.</p>
-            )}
-            {errors.mensagem?.type == "minLength" && (
-              <p>Escreva no mínimo 20 caracteres.</p>
-            )}
+              {errors.mensagem?.type == "required" && (
+                <p>Você deve digitar uma mensagem.</p>
+              )}
+              {errors.mensagem?.type == "minLength" && (
+                <p>Escreva no mínimo 20 caracteres.</p>
+              )}
 
-            <div>
-              <button type="submit">Enviar Mensagem</button>
-            </div>
-          </form>
-        </Container>
+              <div>
+                <button type="submit">Enviar Mensagem</button>
+              </div>
+            </form>
+          </Container>
+        </div>
       </StyledContato>
     </>
   );
