@@ -18,13 +18,11 @@ const StyledHome = styled.section`
     padding: 1rem;
     box-shadow: var(--sombra-box);
     border-radius: var(--borda-arredondada);
-    /* transform: scale(0.9); */
     transition: transform 0.5s ease;
 
     &:hover,
     &:focus {
       transform: scale(1);
-
       color: var(--cor-roxa);
     }
   }
@@ -55,6 +53,7 @@ const StyledHome = styled.section`
     max-width: 100%;
     transition: transform 0.7s ease, filter 2s ease;
     filter: grayscale(100%);
+
     &:hover,
     &:focus {
       transform: scale(1.1);
