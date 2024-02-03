@@ -13,10 +13,6 @@ const StyledNav = styled.nav`
     text-decoration: none;
     color: var(--cor-branca);
 
-    &.ativo {
-      text-transform: uppercase;
-    }
-
     &:first-child {
       color: var(--cor-quartenaria);
     }
@@ -43,6 +39,12 @@ const StyledNav = styled.nav`
         text-transform: none;
         font-weight: bold;
       }
+    }
+  }
+
+  @media screen and (min-width: 720px) {
+    a.ativo {
+      text-transform: uppercase;
     }
   }
 
