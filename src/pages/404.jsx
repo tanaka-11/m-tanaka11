@@ -64,6 +64,8 @@ const Styled404 = styled.section`
     }
 
     article {
+      flex-direction: row;
+
       & p {
         font-size: 30px;
       }
