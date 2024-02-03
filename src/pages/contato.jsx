@@ -12,9 +12,12 @@ const StyledContato = styled.section`
     background-color: var(--cor-cinza);
   }
 
+  div {
+    background-color: var(--cor-cinza);
+  }
+
   form {
     border-radius: var(--borda-arredondada);
-    background-color: var(--cor-cinza);
     color: var(--cor-branca);
   }
 
