@@ -22,7 +22,6 @@ const Styled404 = styled.section`
     align-items: center;
     flex-direction: column;
     margin: 1rem auto;
-    padding: 1rem;
     border-radius: var(--borda-arredondada);
     box-shadow: var(--sombra-box);
     background-color: var(--cor-preto);
@@ -60,15 +59,15 @@ const Styled404 = styled.section`
 
   @media screen and (min-width: 1000px) {
     h1 {
-      font-size: 3rem;
+      font-size: 2.6rem;
     }
 
     article {
       flex-direction: row;
-      margin: 1rem auto;
 
       & p {
         font-size: 30px;
+        margin: 1rem;
       }
 
       & img {
