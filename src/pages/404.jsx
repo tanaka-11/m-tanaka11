@@ -43,9 +43,10 @@ const Styled404 = styled.section`
     }
 
     article {
-      width: 90%;
+      width: 100%;
       background-color: var(--cor-preto);
       flex-direction: column;
+      margin: 1rem;
 
       & p {
         font-size: 20px;
