@@ -13,6 +13,10 @@ const StyledNav = styled.nav`
     text-decoration: none;
     color: var(--cor-branca);
 
+    &.ativo {
+      text-transform: uppercase;
+    }
+
     &:first-child {
       color: var(--cor-quartenaria);
     }
