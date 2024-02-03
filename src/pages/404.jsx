@@ -40,7 +40,7 @@ const Styled404 = styled.section`
 
   @media screen and (min-width: 320px) {
     h1 {
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
 
     article {
