@@ -12,15 +12,18 @@ const StyledContato = styled.section`
     background-color: var(--cor-cinza);
   }
 
+  form {
+    border-radius: var(--borda-arredondada);
+    background-color: var(--cor-cinza);
+    color: var(--cor-branca);
+  }
+
   form > div {
     display: flex;
     flex-direction: column;
     margin: auto;
     padding: 0.8rem;
     font-weight: bold;
-    background-color: var(--cor-cinza);
-    color: var(--cor-branca);
-    border-radius: var(--borda-arredondada);
 
     & + p {
       font-size: 0.9rem;
