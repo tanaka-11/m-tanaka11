@@ -7,9 +7,6 @@
 /* Tamanho da letra */
 html {
   font-size: 18px;
-  /* 
-  #4e4c50
-  */
 }
 
 /* Variáveis CSS */
@@ -19,7 +16,7 @@ html {
   --cor-terciaria: #2aa3db;
   --cor-quartenaria: #d7598b;
   --cor-preto: #000000cb;
-  --cor-cinza: #646266;
+  --cor-cinza: #4e4c50;
   --cor-branca: #edeff0ee;
   --cor-roxa: #7c7cbd;
   --cor-fundo: #a7a7b8;
