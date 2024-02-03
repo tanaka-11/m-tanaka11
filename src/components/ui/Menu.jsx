@@ -34,13 +34,13 @@ const StyledNav = styled.nav`
 
   @media screen and (max-width: 400px) {
     a {
-      & a:hover,
-      & a:focus {
-        text-transform: none;
+      &.ativo {
         font-weight: bold;
       }
 
-      &.ativo {
+      &:hover,
+      &:focus {
+        text-transform: none;
         font-weight: bold;
       }
     }
