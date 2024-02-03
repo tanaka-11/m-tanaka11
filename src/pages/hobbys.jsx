@@ -52,6 +52,10 @@ const StyledHobbys = styled.section`
     }
   }
 
+  footer {
+    color: var(--cor-roxa);
+  }
+
   @media screen and (min-width: 320px) {
     div {
       display: flex;

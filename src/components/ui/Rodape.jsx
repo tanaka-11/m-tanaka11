@@ -10,22 +10,12 @@ const StyledRodape = styled.footer`
   display: flex;
   align-items: center;
   justify-content: center;
-
-  span {
-    color: var(--cor-terciaria);
-  }
-
-  h3 {
-    color: var(--cor-quartenaria);
-  }
 `;
 
 export default function Rodape() {
   return (
     <StyledRodape>
-      <h3>
-        Direitos Reservados <span>©</span>
-      </h3>
+      <h3>Direitos Reservados ©</h3>
     </StyledRodape>
   );
 }

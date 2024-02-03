@@ -61,6 +61,10 @@ const StyledHome = styled.section`
     }
   }
 
+  footer {
+    color: var(--cor-quartenaria);
+  }
+
   /* Estilos para telas com largura mínima de 320px */
   @media screen and (min-width: 320px) {
     img {

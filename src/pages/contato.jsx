@@ -49,6 +49,10 @@ const StyledContato = styled.section`
       }
     }
   }
+
+  footer {
+    color: var(--cor-terciaria);
+  }
 `;
 
 export default function Contato() {
