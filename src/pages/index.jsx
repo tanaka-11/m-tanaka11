@@ -55,6 +55,7 @@ const StyledHome = styled.section`
     max-width: 100%;
     transition: transform 0.7s ease, filter 2s ease;
     filter: grayscale(100%);
+
     &:hover,
     &:focus {
       transform: scale(1.1);
