@@ -31,7 +31,7 @@ const StyledContato = styled.section`
 
     & + p {
       font-size: 0.9rem;
-      color: #c52121;
+      color: #e62f2f;
       font-weight: bold;
       margin-left: 1.5rem;
       margin-top: 0;
