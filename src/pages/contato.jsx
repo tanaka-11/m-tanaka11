@@ -12,7 +12,7 @@ const StyledContato = styled.section`
     background-color: var(--cor-preto);
   }
 
-  .contato {
+  div .contato {
     background-color: var(--cor-preto);
   }
 
@@ -104,7 +104,7 @@ export default function Contato() {
       <StyledContato>
         <h2>Contato</h2>
 
-        <Container className={contato}>
+        <Container className={"contato"}>
           <form
             action=""
             method="post"
