@@ -21,6 +21,7 @@ const Styled404 = styled.section`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: auto;
 
     & p {
       font-size: 20px;
@@ -28,7 +29,7 @@ const Styled404 = styled.section`
 
     & img {
       width: 100%;
-      height: auto;
+      height: 500px;
       max-width: 100%;
     }
   }
@@ -39,6 +40,10 @@ const Styled404 = styled.section`
 
       & p {
         font-size: 16px;
+      }
+
+      & h1 {
+        font-size: 1rem;
       }
 
       & img {
