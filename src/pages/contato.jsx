@@ -19,10 +19,6 @@ const StyledContato = styled.section`
   form {
     border-radius: var(--borda-arredondada);
     color: var(--cor-branca);
-
-    & label {
-      background-color: var(--cor-cinza);
-    }
   }
 
   form > div {
@@ -34,7 +30,7 @@ const StyledContato = styled.section`
 
     & + p {
       font-size: 0.9rem;
-      color: darkred;
+      color: red;
       font-weight: bold;
       margin-left: 1.5rem;
       margin-top: 0;
@@ -47,6 +43,7 @@ const StyledContato = styled.section`
       border: none;
       box-shadow: var(--sombra-box);
       border-radius: 6px;
+      background-color: var(--cor-primaria);
     }
 
     & button {
