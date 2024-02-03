@@ -10,7 +10,6 @@ const StyledHome = styled.section`
   h3 {
     font-style: italic;
     font-weight: 500;
-    /* font-size: 20px; */
     text-align: center;
     margin: 1rem;
     background-color: #3c3b3d;
@@ -25,7 +24,6 @@ const StyledHome = styled.section`
       transform: scale(1.02);
       background-color: var(--cor-preto);
       color: #fff;
-      /* font-weight: bold; */
     }
   }
 
