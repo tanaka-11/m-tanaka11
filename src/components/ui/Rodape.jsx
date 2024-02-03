@@ -31,7 +31,7 @@ export default function Rodape() {
 
   return (
     <StyledRodape textColor={textColor}>
-      <h3>Direitos Reservados ©</h3>
+      <h3 style={{ color: textColor }}>Direitos Reservados ©</h3>
     </StyledRodape>
   );
 }
