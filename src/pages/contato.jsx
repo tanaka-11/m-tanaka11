@@ -106,7 +106,7 @@ export default function Contato() {
       <StyledContato>
         <h2>Contato</h2>
 
-        <Container className={contato}>
+        <Container className="contato">
           <form
             action=""
             method="post"
