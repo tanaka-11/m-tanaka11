@@ -4,7 +4,31 @@ import Image from "next/image";
 import styled from "styled-components";
 
 // CSS
-const Styled404 = styled.section``;
+const Styled404 = styled.section`
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem;
+    background-color: #3c3b3d;
+    color: darkred;
+    padding: 1rem;
+    box-shadow: var(--sombra-box);
+    border-radius: var(--borda-arredondada);
+    transition: transform 0.5s ease;
+  }
+
+  article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & img {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+    }
+  }
+`;
 
 export default function Pagina404() {
   return (
