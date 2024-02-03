@@ -13,7 +13,9 @@ const StyledContato = styled.section`
   }
 
   div {
-    background-color: #121212;
+    &.contato {
+      background-color: #1c1b1b;
+    }
   }
 
   form {
