@@ -9,7 +9,7 @@ import { useRouter } from "next/router";
 const StyledContato = styled.section`
   h2 {
     color: var(--cor-terciaria);
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-preto);
   }
 
   div .contato {
@@ -19,7 +19,6 @@ const StyledContato = styled.section`
   form {
     border-radius: var(--borda-arredondada);
     color: var(--cor-branca);
-    background-color: var(--cor-cinza);
   }
 
   form > div {
@@ -105,7 +104,7 @@ export default function Contato() {
       <StyledContato>
         <h2>Contato</h2>
 
-        <Container className="contato">
+        <Container className={contato}>
           <form
             action=""
             method="post"
