@@ -9,6 +9,7 @@ import { useRouter } from "next/router";
 const StyledContato = styled.section`
   h2 {
     color: var(--cor-terciaria);
+    background-color: var(--cor-cinza);
   }
 
   form > div {
@@ -48,10 +49,6 @@ const StyledContato = styled.section`
         background-color: var(--cor-roxa);
       }
     }
-  }
-
-  footer h3 {
-    color: var(--cor-terciaria);
   }
 `;
 

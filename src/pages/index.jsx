@@ -12,7 +12,7 @@ const StyledHome = styled.section`
     font-weight: 500;
     text-align: center;
     margin: 1rem;
-    background-color: #3c3b3d;
+    background-color: var(--cor-cinza);
     color: var(--cor-branca);
     padding: 1rem;
     box-shadow: var(--sombra-box);
@@ -59,10 +59,6 @@ const StyledHome = styled.section`
       transform: scale(1.1);
       filter: grayscale(65%);
     }
-  }
-
-  footer h3 {
-    color: var(--cor-quartenaria);
   }
 
   /* Estilos para telas com largura mínima de 320px */

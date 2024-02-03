@@ -7,6 +7,7 @@ import Container from "@/components/ui/Container";
 const StyledHobbys = styled.section`
   h2 {
     color: var(--cor-roxa);
+    background-color: var(--cor-cinza);
   }
 
   div {
@@ -50,10 +51,6 @@ const StyledHobbys = styled.section`
     &:last-child h3 {
       color: var(--cor-terciaria);
     }
-  }
-
-  footer h3 {
-    color: var(--cor-roxa);
   }
 
   @media screen and (min-width: 320px) {
