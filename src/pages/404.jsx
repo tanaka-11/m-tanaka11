@@ -20,7 +20,7 @@ const Styled404 = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     margin: 1rem auto;
     padding: 1rem;
     border-radius: var(--borda-arredondada);
@@ -54,6 +54,24 @@ const Styled404 = styled.section`
 
       & img {
         height: 350px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    h1 {
+      font-size: 3rem;
+    }
+
+    article {
+      & p {
+        font-size: 30px;
+      }
+
+      & img {
+        width: 550px;
+        height: 550px;
+        max-width: 100%;
       }
     }
   }

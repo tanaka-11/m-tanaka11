@@ -81,7 +81,7 @@ const StyledHome = styled.section`
     }
   }
 
-  /* Estilos para telas com largura mínima de 500px */
+  /* Estilos para telas com largura mínima de 720px */
   @media screen and (min-width: 720px) {
     img {
       min-height: 400px;
