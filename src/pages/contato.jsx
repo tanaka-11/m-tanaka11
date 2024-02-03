@@ -13,7 +13,7 @@ const StyledContato = styled.section`
   }
 
   div {
-    background-color: #000;
+    background-color: #121212;
   }
 
   form {
