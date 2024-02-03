@@ -12,6 +12,10 @@ const StyledNav = styled.nav`
     text-decoration: none;
     color: var(--cor-primaria);
 
+    &.ativo {
+      text-transform: uppercase;
+    }
+
     &:first-child {
       color: var(--cor-quartenaria);
     }
@@ -28,21 +32,36 @@ const StyledNav = styled.nav`
   }
 
   @media screen and (max-width: 400px) {
-    a:hover,
-    a:focus {
-      text-transform: none;
-      font-weight: bold;
-      text-shadow: var(--cor-roxa) 0 0 1px;
+    a {
+      & a:hover,
+      & a:focus {
+        text-transform: none;
+        font-weight: bold;
+      }
+
+      &.ativo {
+        font-weight: bold;
+      }
     }
   }
 `;
 
 export default function Menu() {
+  // Hook para link ativo
+  const linkAtivo = usePathname();
+  const verificaAtivo = (path) => (linkAtivo === path ? "ativo" : "");
+
   return (
     <StyledNav>
-      <Link href="/">Minha História</Link>
-      <Link href="/hobbys">Hobbys</Link>
-      <Link href="/contato">Contato</Link>
+      <Link href="/" className={verificaAtivo("/")}>
+        Minha História
+      </Link>
+      <Link href="/hobbys" className={verificaAtivo("/hobbys")}>
+        Hobbys
+      </Link>
+      <Link href="/contato" className={verificaAtivo("/contato")}>
+        Contato
+      </Link>
     </StyledNav>
   );
 }
