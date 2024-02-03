@@ -147,6 +147,10 @@ export async function getStaticProps() {
     };
   } catch (error) {
     console.error("Erro de conexão: " + error.message);
+
+    return {
+      notFound: true,
+    };
   }
 }
 
