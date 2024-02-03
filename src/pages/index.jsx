@@ -176,7 +176,7 @@ export default function Home({ mensagens }) {
             />
             <p>
               "A intensa revolta se apossava do peito, crescendo em meio ao
-              pecado se iniciava a jornada nas sombras da vida. Sob os sussurros
+              pecado se iniciou a jornada nas sombras da vida. Sob os sussurros
               de demônios, a mente repetia<i> 'Mente vazia é oficina do cão'</i>
               ".
             </p>

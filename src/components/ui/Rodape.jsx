@@ -6,6 +6,9 @@ const StyledRodape = styled.footer`
   height: 10vh;
   padding: 1rem;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export default function Rodape() {
