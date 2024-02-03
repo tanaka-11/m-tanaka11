@@ -28,7 +28,7 @@ const StyledHome = styled.section`
   }
 
   p {
-    margin: 10px;
+    margin: 14px;
     padding: 10px;
   }
 
