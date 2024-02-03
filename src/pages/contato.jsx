@@ -19,6 +19,7 @@ const StyledContato = styled.section`
   form {
     border-radius: var(--borda-arredondada);
     color: var(--cor-branca);
+    background-color: var(--cor-preto);
   }
 
   form > div {
