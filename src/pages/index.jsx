@@ -53,10 +53,12 @@ const StyledHome = styled.section`
     width: 100%;
     height: auto;
     max-width: 100%;
-    transition: transform 0.7s ease;
+    transition: transform 0.7s ease, filter 2s ease;
+    filter: grayscale(100%);
     &:hover,
     &:focus {
       transform: scale(1.1);
+      filter: grayscale(0);
     }
   }
 
