@@ -104,7 +104,7 @@ export default function Contato() {
       <StyledContato>
         <h2>Contato</h2>
 
-        <Container className={"contato"}>
+        <Container style={{ backgroundColor: "var(--cor-preto)" }}>
           <form
             action=""
             method="post"
