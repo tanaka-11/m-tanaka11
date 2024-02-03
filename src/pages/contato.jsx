@@ -104,8 +104,8 @@ export default function Contato() {
       <StyledContato>
         <h2>Contato</h2>
 
-        <div className="contato">
-          <Container>
+        <Container>
+          <div className="contato">
             <form
               action=""
               method="post"
@@ -168,8 +168,8 @@ export default function Contato() {
                 <button type="submit">Enviar Mensagem</button>
               </div>
             </form>
-          </Container>
-        </div>
+          </div>
+        </Container>
       </StyledContato>
     </>
   );
