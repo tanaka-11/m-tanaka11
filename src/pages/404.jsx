@@ -10,7 +10,7 @@ const Styled404 = styled.section`
     text-align: center;
     margin: 1rem;
     background-color: #3c3b3d;
-    color: #9b1515;
+    color: #cc2929;
     padding: 1rem;
     box-shadow: var(--sombra-box);
     border-radius: var(--borda-arredondada);
@@ -30,6 +30,20 @@ const Styled404 = styled.section`
       width: 100%;
       height: auto;
       max-width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 320px) {
+    article {
+      width: 90%;
+
+      & p {
+        font-size: 16px;
+      }
+
+      & img {
+        max-height: 350px;
+      }
     }
   }
 `;
