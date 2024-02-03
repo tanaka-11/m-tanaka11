@@ -25,6 +25,7 @@ const Styled404 = styled.section`
     padding: 1rem;
     border-radius: var(--borda-arredondada);
     box-shadow: var(--sombra-box);
+    background-color: var(--cor-preto);
 
     & p {
       font-size: 30px;
@@ -44,9 +45,7 @@ const Styled404 = styled.section`
 
     article {
       width: 100%;
-      background-color: var(--cor-preto);
       flex-direction: column;
-      margin: 1rem;
 
       & p {
         font-size: 20px;
@@ -66,6 +65,7 @@ const Styled404 = styled.section`
 
     article {
       flex-direction: row;
+      margin: 1rem auto;
 
       & p {
         font-size: 30px;
