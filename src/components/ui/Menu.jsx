@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styled from "styled-components";
+import { usePathname } from "next/navigation";
 
 const StyledNav = styled.nav`
   display: flex;
@@ -10,7 +11,7 @@ const StyledNav = styled.nav`
 
   a {
     text-decoration: none;
-    color: var(--cor-primaria);
+    color: var(--cor-branca);
 
     &.ativo {
       text-transform: uppercase;
