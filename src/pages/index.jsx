@@ -195,9 +195,9 @@ export default function Home({ mensagens }) {
               priority
             />
             <p>
-              "Foi quando um anjo celestial trouxe a luz, guiando-me nessa
-              transformação e a tornando em uma jornada em busca por redenção,
-              quando a fé se fortalecia foi onde houve a promessa
+              "Foi quando um anjo celestial trouxe a luz, guiando essa
+              transformação e tornando a jornada uma busca por redenção, onde a
+              fé se fortalecia foi onde houve a promessa
               <i> 'Vou te orgulhar minha rainha'</i> ".
             </p>
           </article>
