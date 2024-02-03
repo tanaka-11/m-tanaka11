@@ -20,6 +20,7 @@ const StyledContato = styled.section`
     font-weight: bold;
     background-color: var(--cor-cinza);
     color: var(--cor-branca);
+    border-radius: var(--borda-arredondada);
 
     & + p {
       font-size: 0.9rem;
