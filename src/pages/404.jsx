@@ -34,7 +34,6 @@ const Styled404 = styled.section`
       width: 550px;
       height: 550px;
       max-width: 100%;
-      /* margin: 1rem; */
     }
   }
 
