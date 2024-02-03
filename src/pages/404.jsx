@@ -10,17 +10,21 @@ const Styled404 = styled.section`
     text-align: center;
     margin: 1rem;
     background-color: #3c3b3d;
-    color: darkred;
+    color: #9b1515;
     padding: 1rem;
     box-shadow: var(--sombra-box);
     border-radius: var(--borda-arredondada);
-    transition: transform 0.5s ease;
   }
 
   article {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+
+    & p {
+      font-size: 20px;
+    }
 
     & img {
       width: 100%;
