@@ -12,7 +12,7 @@ const StyledContato = styled.section`
     background-color: var(--cor-preto);
   }
 
-  div .contato {
+  .contato {
     background-color: var(--cor-preto);
   }
 
