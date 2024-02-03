@@ -20,7 +20,7 @@ const Styled404 = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     margin: 1rem auto;
     padding: 1rem;
     border-radius: var(--borda-arredondada);
@@ -34,7 +34,7 @@ const Styled404 = styled.section`
       width: 550px;
       height: 550px;
       max-width: 100%;
-      margin: 1rem;
+      /* margin: 1rem; */
     }
   }
 
@@ -46,6 +46,7 @@ const Styled404 = styled.section`
     article {
       width: 90%;
       background-color: var(--cor-preto);
+      flex-direction: column;
 
       & p {
         font-size: 20px;
