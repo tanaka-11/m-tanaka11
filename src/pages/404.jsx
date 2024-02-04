@@ -35,6 +35,14 @@ const Styled404 = styled.section`
       width: 550px;
       height: 550px;
       max-width: 100%;
+      transition: transform 0.7s ease, filter 2s ease;
+      filter: grayscale(100%);
+
+      &:hover,
+      &:focus {
+        transform: scale(1.06);
+        filter: grayscale(40%);
+      }
     }
   }
 

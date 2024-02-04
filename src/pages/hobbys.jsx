@@ -148,7 +148,7 @@ export default function Hobbys() {
               vida e a salvou de certa forma."
             </p>
             <Image
-              src="/images/programacao2.jpg"
+              src="/images/programacao.jpg"
               width={300}
               height={380}
               alt="Computador"
