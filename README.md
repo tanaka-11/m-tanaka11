@@ -4,6 +4,8 @@
 
 O projeto "História de Vida" é uma aplicação que conta a história de vida da desenvolvedora Marina Tanaka por meio de metáforas interativas.
 
+**Link para o Site:** https://m-tanaka11.vercel.app/
+
 ### Recursos Utilizados
 
 - **Next.js:** Utilizado como framework para o desenvolvimento da aplicação.
