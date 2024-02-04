@@ -14,7 +14,7 @@ O projeto "História de Vida" é uma aplicação que conta a história de vida d
 
 - **Manipulação de formulário integrada ao Firebase:** Permitindo aos usuários interagir, contribuir e compartilhar suas próprias histórias, criando uma comunidade colaborativa.
 
-- **Gerador de Imagens do Canva:** Imagens presentes na página inicial e na Página 404 são produzidas usando a inteligência artificial do Canva.
+- **Gerador de Imagens do Canva:** Imagens presentes na página inicial e na página 404 são produzidas usando a inteligência artificial do Canva.
 
 - **Next-Pwa:** Transforma a aplicação web em um Progressive Web App (PWA), proporcionando uma experiência nativa aos usuários, mesmo offline.
 
@@ -24,4 +24,4 @@ O projeto "História de Vida" é uma aplicação que conta a história de vida d
 
 ### Como Contribuir
 
-Se você se identificou com a história de Marina Tanaka ou deseja compartilhar sua própria jornada, sinta-se à vontade para contribuir! Basta preencher o formulário disponível na plataforma.
+Se você se identificou com a minha história ou deseja compartilhar sua própria jornada, sinta-se à vontade para contribuir! Basta preencher o formulário disponível na plataforma.
