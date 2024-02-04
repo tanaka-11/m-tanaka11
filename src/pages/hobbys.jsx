@@ -19,13 +19,15 @@ const StyledHobbys = styled.section`
 
   img {
     max-width: 100%;
+    border-radius: var(--borda-arredondada);
     cursor: pointer;
     filter: grayscale(100%) blur(1px);
-    transition: filter 2s ease;
+    transition: filter 1.3s ease, transform 0.7s ease;
 
     &:hover,
     &:focus {
       filter: grayscale(0) blur(0);
+      transform: scale(1.1);
     }
   }
 
@@ -61,7 +63,6 @@ const StyledHobbys = styled.section`
 
     article {
       margin: 0.8rem auto;
-      padding: 0.6rem;
       width: 100%;
 
       & p {
@@ -71,7 +72,7 @@ const StyledHobbys = styled.section`
 
     img {
       min-width: 220px;
-      height: 420px;
+      height: 465px;
       width: 100%;
     }
   }
@@ -106,10 +107,7 @@ const StyledHobbys = styled.section`
 
     article {
       width: 100%;
-      margin: 0.8rem;
       padding: 0.6rem;
-
-      justify-content: space-around;
     }
   }
 `;

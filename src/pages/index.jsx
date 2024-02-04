@@ -164,6 +164,10 @@ export default function Home({ mensagens }) {
     <>
       <Head>
         <title>_Tanaka11_</title>
+        <meta
+          name="description"
+          content="História em formato de metáfora da desenvolvedora Marina Tanaka"
+        />
       </Head>
 
       <StyledHome>
@@ -181,7 +185,7 @@ export default function Home({ mensagens }) {
             <p>
               "A intensa revolta se apossava do peito, crescendo em meio ao
               pecado se iniciou a jornada nas sombras da vida. Sob os sussurros
-              de demônios, a mente repetia<i> 'Mente vazia é oficina do cão'</i>
+              de demônios, a mente repetia<i> 'Mente vazia é oficina do cão'</i>{" "}
               ".
             </p>
           </article>

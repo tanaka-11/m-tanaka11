@@ -11,7 +11,7 @@ const StyledNav = styled.nav`
 
   a {
     text-decoration: none;
-    color: var(--cor-branca);
+    color: var(--cor-roxa);
 
     &:first-child {
       color: var(--cor-quartenaria);

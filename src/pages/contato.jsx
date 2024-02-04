@@ -42,9 +42,13 @@ const StyledContato = styled.section`
       background-color: var(--cor-primaria);
     }
 
+    & input#nome:hover {
+      text-transform: capitalize;
+    }
+
     & button {
       background-color: var(--cor-terciaria);
-      color: #f7f7f7;
+      color: var(--cor-branca);
       padding: 0.8rem;
       border-radius: var(--borda-arredondada);
       cursor: pointer;
@@ -111,7 +115,7 @@ export default function Contato() {
               })}
             >
               <div>
-                <label htmlFor="nome">Nome </label>
+                <label htmlFor="nome">Nome</label>
                 <input
                   type="text"
                   name="nome"
@@ -125,7 +129,7 @@ export default function Contato() {
               )}
 
               <div>
-                <label htmlFor="email">E-mail </label>
+                <label htmlFor="email">E-mail</label>
                 <input
                   type="email"
                   name="email"
@@ -139,7 +143,7 @@ export default function Contato() {
               )}
 
               <div>
-                <label htmlFor="mensagem">Mensagem </label>
+                <label htmlFor="mensagem">Mensagem</label>
                 <textarea
                   name="mensagem"
                   id="mensagem"
