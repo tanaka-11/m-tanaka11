@@ -1,0 +1,70 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Frases Motivacionais",
+    "dateExported": "2024-02-04T13:20:08.307Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "90918794-5913-4d18-91f2-78a2b7fb464c",
+            "colId": "871f4dd5-4f79-4505-9622-008efc54ec7b",
+            "containerId": "",
+            "name": "GET Mensagens",
+            "url": "https://frases-motivacionais-tanaka-default-rtdb.firebaseio.com/mensagens.json",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-04T13:15:29.145Z",
+            "modified": "2024-02-04T13:15:29.146Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fe5a273c-e1a9-447f-a9f7-f96964d605f2",
+            "colId": "871f4dd5-4f79-4505-9622-008efc54ec7b",
+            "containerId": "",
+            "name": "GET Mensagem",
+            "url": "https://frases-motivacionais-tanaka-default-rtdb.firebaseio.com/mensagens/-NpdpoRC1X8Gg9ztCFoC.json",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-04T13:15:54.860Z",
+            "modified": "2024-02-04T13:16:05.523Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d5e5e97f-ac20-4ef1-b14a-2b502d5d99eb",
+            "colId": "871f4dd5-4f79-4505-9622-008efc54ec7b",
+            "containerId": "",
+            "name": "DELETE Mensagem",
+            "url": "https://frases-motivacionais-tanaka-default-rtdb.firebaseio.com/mensagens/-NpdpoRCzedW6-XZRuv1.json",
+            "method": "DELETE",
+            "sortNum": 25000,
+            "created": "2024-02-04T13:19:42.840Z",
+            "modified": "2024-02-04T13:20:03.523Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "be091d43-cc48-467e-aa96-768c1c544b23",
+            "colId": "871f4dd5-4f79-4505-9622-008efc54ec7b",
+            "containerId": "",
+            "name": "PUT Mensagem",
+            "url": "https://frases-motivacionais-tanaka-default-rtdb.firebaseio.com/mensagens/-NpdpoRCOGu45lfnLf-h.json",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-02-04T13:16:21.574Z",
+            "modified": "2024-02-04T13:18:42.085Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"mensagem\": \"O sucesso é a soma de pequenos esforços repetidos dia após dia.\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
