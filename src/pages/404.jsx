@@ -9,7 +9,7 @@ const Styled404 = styled.section`
     font-size: 3rem;
     text-align: center;
     margin: 1rem;
-    background-color: #3c3b3d;
+    background-color: var(--cor-preto);
     color: #cc2929;
     padding: 1rem;
     box-shadow: var(--sombra-box);
@@ -24,11 +24,11 @@ const Styled404 = styled.section`
     margin: 1rem auto;
     border-radius: var(--borda-arredondada);
     box-shadow: var(--sombra-box);
-    background-color: var(--cor-preto);
+    background-color: var(--cor-preto-transparente);
 
     & p {
-      font-size: 30px;
-      margin: 1rem;
+      font-size: 26px;
+      padding: 1rem;
     }
 
     & img {
@@ -36,12 +36,13 @@ const Styled404 = styled.section`
       height: 550px;
       max-width: 100%;
       transition: transform 0.7s ease, filter 2s ease;
+      border-radius: var(--borda-arredondada);
       filter: grayscale(100%);
 
       &:hover,
       &:focus {
-        transform: scale(1.06);
-        filter: grayscale(40%);
+        transform: scale(1.02);
+        filter: grayscale(50%);
       }
     }
   }
