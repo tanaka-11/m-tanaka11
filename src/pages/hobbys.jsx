@@ -27,7 +27,7 @@ const StyledHobbys = styled.section`
     &:hover,
     &:focus {
       filter: grayscale(0) blur(0);
-      transform: scale(1.1);
+      transform: scale(1.01);
     }
   }
 
