@@ -62,7 +62,7 @@ const StyledHobbys = styled.section`
     }
 
     article {
-      margin: 0.8rem auto;
+      margin: auto;
       width: 100%;
 
       & p {
