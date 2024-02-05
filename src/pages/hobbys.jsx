@@ -32,9 +32,9 @@ const StyledHobbys = styled.section`
   }
 
   article {
-    background-color: var(--cor-preto);
+    /* background-color: var(--cor-preto-transparente); */
     color: var(--cor-branca);
-    border-radius: var(--borda-arredondada);
+
     text-align: center;
 
     & h3 {
@@ -59,16 +59,17 @@ const StyledHobbys = styled.section`
     div {
       display: flex;
       flex-direction: column;
+      /* margin: 1rem; */
     }
 
     article {
-      margin: 1rem auto;
+      margin: 0.5rem auto;
       width: 100%;
     }
 
     img {
       min-width: 220px;
-      height: 465px;
+      height: 400px;
       width: 100%;
     }
   }

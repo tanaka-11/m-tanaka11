@@ -39,7 +39,7 @@ const StyledContato = styled.section`
       border: none;
       box-shadow: var(--sombra-box);
       border-radius: 6px;
-      background-color: var(--cor-primaria);
+      background-color: var(--cor-fundo);
     }
 
     & input#nome:hover {
