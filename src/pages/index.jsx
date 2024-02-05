@@ -1,10 +1,9 @@
 import Container from "@/components/ui/Container";
+import ArtigoIndex from "@/components/ArtigoIndex";
 import serverAPI from "./api/server";
 import Head from "next/head";
-import Image from "next/image";
 import styled from "styled-components";
 import React, { useState, useEffect } from "react";
-import ArtigoIndex from "@/components/ArtigoIndex";
 
 // CSS
 const StyledHome = styled.section`
