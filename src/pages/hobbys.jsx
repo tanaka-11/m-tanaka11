@@ -44,7 +44,6 @@ const StyledHobbys = styled.section`
 
     & p {
       margin: 1rem;
-      min-height: 90px;
     }
 
     &:first-child h3 {
