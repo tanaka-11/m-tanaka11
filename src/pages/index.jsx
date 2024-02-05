@@ -110,6 +110,7 @@ const StyledHome = styled.section`
 
       & p {
         font-size: 22px;
+        margin: 22px;
       }
     }
 
