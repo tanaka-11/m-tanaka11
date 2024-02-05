@@ -28,7 +28,7 @@ const StyledHome = styled.section`
   }
 
   p {
-    margin: 1.5rem;
+    margin: 1.8rem;
     padding: 1.5rem;
   }
 
@@ -103,8 +103,13 @@ const StyledHome = styled.section`
   @media screen and (min-width: 1000px) {
     article {
       width: 90%;
+
       & img {
         min-height: 550px;
+      }
+
+      & p {
+        font-size: 22px;
       }
     }
 
@@ -113,10 +118,6 @@ const StyledHome = styled.section`
       font-size: 30px;
       color: #fff;
       text-align: center;
-    }
-
-    p {
-      font-size: 22px;
     }
   }
 `;
