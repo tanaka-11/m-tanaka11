@@ -14,7 +14,7 @@ const StyledHobbys = styled.section`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 1rem;
+    /* margin: 1rem; */
   }
 
   img {
@@ -32,9 +32,7 @@ const StyledHobbys = styled.section`
   }
 
   article {
-    /* background-color: var(--cor-preto-transparente); */
     color: var(--cor-branca);
-
     text-align: center;
 
     & h3 {
@@ -59,7 +57,6 @@ const StyledHobbys = styled.section`
     div {
       display: flex;
       flex-direction: column;
-      /* margin: 1rem; */
     }
 
     article {
