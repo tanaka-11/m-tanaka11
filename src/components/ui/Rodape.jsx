@@ -33,7 +33,7 @@ export default function Rodape() {
   }, [router.pathname]);
 
   return (
-    <StyledRodape textColor={textColor}>
+    <StyledRodape>
       <h3 style={{ color: textColor }}>Direitos Reservados ©</h3>
     </StyledRodape>
   );
