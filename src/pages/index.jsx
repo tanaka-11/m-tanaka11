@@ -82,7 +82,6 @@ const StyledHome = styled.section`
   /* Estilos para telas com largura mínima de 720px */
   @media screen and (min-width: 720px) {
     img {
-      min-height: 550px;
       height: auto;
       width: 100%;
     }
@@ -94,6 +93,9 @@ const StyledHome = styled.section`
     article {
       width: 100%;
       flex-direction: row;
+      & p {
+        font-size: 20px;
+      }
     }
   }
 
@@ -101,6 +103,9 @@ const StyledHome = styled.section`
   @media screen and (min-width: 1000px) {
     article {
       width: 90%;
+      & img {
+        min-height: 550px;
+      }
     }
 
     h3 {
