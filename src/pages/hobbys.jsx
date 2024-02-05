@@ -35,10 +35,11 @@ const StyledHobbys = styled.section`
     background-color: var(--cor-preto);
     color: var(--cor-branca);
     border-radius: var(--borda-arredondada);
+    text-align: center;
 
     & h3 {
       color: var(--cor-roxa);
-      margin: 0.6rem;
+      margin: 1rem;
     }
 
     & p {
