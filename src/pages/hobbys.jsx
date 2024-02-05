@@ -66,7 +66,7 @@ const StyledHobbys = styled.section`
 
     img {
       min-width: 220px;
-      height: 400px;
+      height: 425px;
       width: 100%;
     }
   }
