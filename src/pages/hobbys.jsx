@@ -8,13 +8,21 @@ const StyledHobbys = styled.section`
   h2 {
     color: var(--cor-roxa);
     background-color: var(--cor-preto);
+    box-shadow: var(--sombra-box);
+    border-radius: var(--borda-arredondada);
+    transition: transform 0.5s ease;
+    &:hover,
+    &:focus {
+      transform: scale(1.02);
+      background-color: var(--cor-preto-transparente);
+      color: var(--cor-roxa-hover);
+    }
   }
 
   div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* margin: 1rem; */
   }
 
   img {
@@ -77,19 +85,31 @@ const StyledHobbys = styled.section`
       flex-direction: column;
     }
 
+    h3 {
+      font-size: 26px;
+    }
+
+    h3 {
+      font-size: 24px;
+    }
+
     article {
       width: 90%;
       margin: 0.8rem auto;
       padding: 0.6rem;
+
+      & p {
+        font-size: 22px;
+      }
     }
 
     img {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      max-width: 450px;
+      width: 450px;
       height: 540px;
-      width: 100%;
+      max-width: 100%;
     }
   }
 
@@ -102,6 +122,74 @@ const StyledHobbys = styled.section`
     article {
       width: 100%;
       padding: 0.6rem;
+    }
+  }
+
+  @media screen and (min-width: 1300px) {
+    h2 {
+      font-size: 36px;
+      width: 90%;
+      margin: 1rem auto;
+      &:hover,
+      &:focus {
+        transform: scale(1.02);
+      }
+    }
+
+    article {
+      /* height: 67vh; */
+
+      & img {
+        height: 600px;
+        width: 550px;
+      }
+
+      & h3 {
+        font-size: 28px;
+      }
+
+      & p {
+        font-size: 26px;
+      }
+    }
+
+    div {
+      width: 90%;
+      margin: 1rem auto;
+    }
+  }
+
+  @media screen and (min-width: 1800px) {
+    h2 {
+      font-size: 40px;
+      width: 90%;
+      margin: 1rem auto;
+      &:hover,
+      &:focus {
+        transform: scale(1.02);
+      }
+    }
+
+    article {
+      height: 67vh;
+
+      & img {
+        height: 900px;
+        width: 600px;
+      }
+
+      & h3 {
+        font-size: 30px;
+      }
+
+      & p {
+        font-size: 28px;
+      }
+    }
+
+    div {
+      width: 90%;
+      margin: 1rem auto;
     }
   }
 `;

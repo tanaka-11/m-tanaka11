@@ -14,12 +14,14 @@ html {
   --cor-primaria: #d3d3d3ee;
   --cor-secundaria: #3a5e98;
   --cor-terciaria: #2aa3db;
+  --cor-terciaria-hover: #43c3ff;
   --cor-quartenaria: #d7598b;
   --cor-preto-transparente: #000000cb;
   --cor-preto: #222225;
   --cor-cinza: #949296;
   --cor-branca: #edeff0ee;
   --cor-roxa: #6c6cbd;
+  --cor-roxa-hover: #8282d1;
   --cor-fundo: #b0b0b3;
   --sombra-box: 0px 10px 15px -3px #00000041;
   --borda-arredondada: 8px;

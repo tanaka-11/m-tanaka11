@@ -28,6 +28,14 @@ const StyledHome = styled.section`
   }
 
   @media screen and (min-width: 1000px) {
+    article {
+      width: 100%;
+      & img {
+        width: 500px;
+        height: 500px;
+      }
+    }
+
     h3 {
       height: 130px;
       font-size: 30px;
@@ -37,6 +45,14 @@ const StyledHome = styled.section`
   }
 
   @media screen and (min-width: 1800px) {
+    article {
+      width: 90%;
+      & img {
+        width: 600px;
+        height: 600px;
+      }
+    }
+
     h3 {
       font-size: 38px;
       width: 90%;

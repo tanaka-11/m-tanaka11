@@ -10,6 +10,14 @@ const StyledContato = styled.section`
   h2 {
     color: var(--cor-terciaria);
     background-color: var(--cor-preto);
+    transition: transform 0.5s ease;
+
+    &:hover,
+    &:focus {
+      transform: scale(1.02);
+      background-color: var(--cor-preto-transparente);
+      color: var(--cor-terciaria-hover);
+    }
   }
 
   form {
@@ -58,6 +66,52 @@ const StyledContato = styled.section`
       &:focus {
         background-color: var(--cor-roxa);
       }
+    }
+  }
+
+  @media screen and (min-width: 1800px) {
+    article {
+      width: 90%;
+
+      & h3 {
+        font-size: 28px;
+      }
+    }
+
+    form > div {
+      & input,
+      & textarea {
+        padding: 1.6rem;
+      }
+
+      & + p {
+        font-size: 24px;
+        margin-bottom: 1rem;
+        margin-left: 6.5rem;
+      }
+
+      & label {
+        font-size: 26px;
+      }
+
+      & button {
+        font-size: 30px;
+      }
+    }
+
+    h2 {
+      font-size: 38px;
+      width: 90%;
+      margin: 1rem auto;
+      &:hover,
+      &:focus {
+        transform: scale(1.02);
+      }
+    }
+
+    div {
+      width: 90%;
+      margin: 1rem auto;
     }
   }
 `;
