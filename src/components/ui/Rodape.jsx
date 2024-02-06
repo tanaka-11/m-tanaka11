@@ -12,6 +12,10 @@ const StyledRodape = styled.footer`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media screen and (min-width: 1800px) {
+    font-size: 28px;
+  }
 `;
 
 export default function Rodape() {

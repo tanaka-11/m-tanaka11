@@ -53,6 +53,10 @@ const StyledNav = styled.nav`
       text-transform: uppercase;
     }
   }
+
+  @media screen and (min-width: 1800px) {
+    font-size: 28px;
+  }
 `;
 
 export default function Menu() {

@@ -27,98 +27,29 @@ const StyledHome = styled.section`
     }
   }
 
-  p {
-    margin: 1.8rem;
-    padding: 1.5rem;
-  }
-
-  article {
-    margin: 20px auto;
-    text-align: center;
-    box-shadow: var(--sombra-box);
-    border-radius: var(--borda-arredondada);
-    background-color: var(--cor-preto-transparente);
-    color: var(--cor-branca);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-    overflow: hidden; /* Evita que as sombras vazem para fora do article */
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-    max-width: 550px;
-    transition: transform 0.7s ease, filter 2s ease;
-    filter: grayscale(100%);
-
-    &:hover,
-    &:focus {
-      transform: scale(1.1);
-      filter: grayscale(65%);
-    }
-  }
-
-  /* Estilos para telas com largura mínima de 320px */
-  @media screen and (min-width: 320px) {
-    img {
-      max-height: 400px;
-    }
-
-    article {
-      width: 90%;
-      flex-direction: column;
-    }
-
-    p {
-      font-size: 16px;
-      margin: 1rem;
-      padding: 1rem;
-    }
-  }
-
-  /* Estilos para telas com largura mínima de 720px */
-  @media screen and (min-width: 720px) {
-    img {
-      height: auto;
-      width: 100%;
-    }
-
-    h3 {
-      font-size: 22px;
-    }
-
-    article {
-      width: 100%;
-      flex-direction: row;
-      & p {
-        font-size: 20px;
-      }
-    }
-  }
-
-  /* Estilos para telas com largura mínima de 1000px */
   @media screen and (min-width: 1000px) {
-    article {
-      width: 90%;
-
-      & img {
-        min-height: 550px;
-      }
-
-      & p {
-        font-size: 22px;
-        margin: 22px;
-      }
-    }
-
     h3 {
       height: 130px;
       font-size: 30px;
       color: #fff;
       text-align: center;
+    }
+  }
+
+  @media screen and (min-width: 1800px) {
+    h3 {
+      font-size: 38px;
+      width: 90%;
+      margin: 1rem auto;
+      &:hover,
+      &:focus {
+        transform: scale(1.02);
+      }
+    }
+
+    div {
+      width: 90%;
+      margin: 1rem auto;
     }
   }
 `;
