@@ -12,7 +12,7 @@ const StyledHome = styled.section`
     font-weight: 500;
     text-align: center;
     margin: 1rem;
-    background-color: var(--cor-preto-transparente);
+    background-color: var(--cor-preto);
     color: var(--cor-branca);
     padding: 1rem;
     box-shadow: var(--sombra-box);
@@ -22,7 +22,7 @@ const StyledHome = styled.section`
     &:hover,
     &:focus {
       transform: scale(1.02);
-      background-color: var(--cor-preto);
+      background-color: var(--cor-preto-transparente);
       color: #fff;
     }
   }
