@@ -14,7 +14,7 @@ const StyledRodape = styled.footer`
   justify-content: center;
 
   @media screen and (min-width: 1800px) {
-    font-size: 28px;
+    font-size: 24px;
   }
 `;
 

@@ -55,7 +55,7 @@ const StyledNav = styled.nav`
   }
 
   @media screen and (min-width: 1800px) {
-    font-size: 28px;
+    font-size: 24px;
   }
 `;
 

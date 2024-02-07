@@ -95,7 +95,7 @@ const StyledContato = styled.section`
       }
 
       & button {
-        font-size: 30px;
+        font-size: 26px;
       }
     }
 

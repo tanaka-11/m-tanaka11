@@ -161,7 +161,7 @@ const StyledHobbys = styled.section`
 
   @media screen and (min-width: 1800px) {
     h2 {
-      font-size: 40px;
+      font-size: 38px;
       width: 90%;
       margin: 1rem auto;
       &:hover,
@@ -174,16 +174,16 @@ const StyledHobbys = styled.section`
       height: 67vh;
 
       & img {
-        height: 900px;
-        width: 600px;
+        height: 500px;
+        width: 500px;
       }
 
       & h3 {
-        font-size: 30px;
+        font-size: 26px;
       }
 
       & p {
-        font-size: 28px;
+        font-size: 24px;
       }
     }
 
